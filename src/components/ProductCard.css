@@ -1,0 +1,125 @@
+.product-card {
+    background: #fff;
+    border: 2px solid var(--color-text);
+    border-radius: 8px;
+    overflow: hidden;
+    transition: transform 0.2s ease, box-shadow 0.2s ease;
+    display: flex;
+    flex-direction: column;
+}
+
+.product-card:hover {
+    transform: translateY(-5px);
+    box-shadow: 5px 5px 0 rgba(0, 0, 0, 0.1);
+}
+
+.product-card.sold {
+    opacity: 0.7;
+    filter: grayscale(0.8);
+}
+
+.product-image-container {
+    position: relative;
+    height: 250px;
+    overflow: hidden;
+    border-bottom: 2px solid var(--color-text);
+}
+
+.product-image {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    transition: transform 0.5s ease;
+}
+
+.product-card:hover .product-image {
+    transform: scale(1.05);
+}
+
+.status-badge {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    background: var(--color-text);
+    color: #fff;
+    padding: 0.25rem 0.75rem;
+    font-weight: bold;
+    font-size: 0.8rem;
+    border-radius: 4px;
+    text-transform: uppercase;
+}
+
+.product-info {
+    padding: 1.5rem;
+    flex-grow: 1;
+    display: flex;
+    flex-direction: column;
+}
+
+.product-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    margin-bottom: 0.5rem;
+}
+
+.product-name {
+    font-size: 1.2rem;
+    margin-right: 1rem;
+}
+
+.product-price {
+    font-weight: bold;
+    font-size: 1.2rem;
+    color: var(--color-text);
+}
+
+.product-category {
+    font-size: 0.8rem;
+    text-transform: uppercase;
+    color: #777;
+    margin-bottom: 1rem;
+    letter-spacing: 1px;
+}
+
+.product-description {
+    font-size: 0.95rem;
+    margin-bottom: 1.5rem;
+    flex-grow: 1;
+    color: #444;
+}
+
+.action-btn {
+    width: 100%;
+    padding: 0.8rem;
+    font-weight: bold;
+    font-size: 1rem;
+    border: 2px solid var(--color-text);
+    border-radius: 4px;
+    background: var(--color-accent);
+    color: #fff;
+    transition: all 0.2s ease;
+    box-shadow: 2px 2px 0 var(--color-text);
+}
+
+.action-btn:hover:not(:disabled) {
+    transform: translate(-2px, -2px);
+    box-shadow: 4px 4px 0 var(--color-text);
+}
+
+.action-btn:active:not(:disabled) {
+    transform: translate(0, 0);
+    box-shadow: 0 0 0 var(--color-text);
+}
+
+.action-btn.reserved {
+    background: var(--color-reserved);
+}
+
+.action-btn.sold {
+    background: #ccc;
+    border-color: #999;
+    color: #666;
+    cursor: not-allowed;
+    box-shadow: none;
+}

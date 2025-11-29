@@ -1,0 +1,56 @@
+:root {
+  --color-bg: #fdfbf7;
+  /* Warm off-white */
+  --color-text: #2d2a26;
+  /* Soft black */
+  --color-accent: #e65100;
+  /* Burnt orange for urgency/highlights */
+  --color-secondary: #5d4037;
+  /* Brown for narrative elements */
+  --color-available: #2e7d32;
+  --color-reserved: #f57f17;
+  --color-sold: #757575;
+  --font-main: 'Inter', system-ui, sans-serif;
+  --font-serif: 'Merriweather', serif;
+  /* For story elements */
+}
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: var(--font-main);
+  background-color: var(--color-bg);
+  color: var(--color-text);
+  line-height: 1.6;
+  -webkit-font-smoothing: antialiased;
+}
+
+h1,
+h2,
+h3 {
+  font-weight: 700;
+  line-height: 1.2;
+}
+
+button {
+  cursor: pointer;
+  font-family: inherit;
+  border: none;
+  background: none;
+}
+
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 1rem;
+}
+
+/* Utilities for "imperfect" look */
+.handwritten {
+  font-family: 'Caveat', cursive;
+  /* We'll need to load this */
+}

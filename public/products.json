@@ -1,0 +1,52 @@
+[
+  {
+    "id": 1,
+    "name": "Vintage Denim Jacket",
+    "category": "Clothes",
+    "price": 45,
+    "originalPrice": 80,
+    "sold": false,
+    "image": "https://images.unsplash.com/photo-1576995853123-5a10305d93c0?auto=format&fit=crop&q=80&w=500",
+    "description": "Classic 90s denim jacket, oversized fit. Excellent condition."
+  },
+  {
+    "id": 2,
+    "name": "Mid-Century Modern Chair",
+    "category": "Furniture",
+    "price": 120,
+    "originalPrice": 250,
+    "sold": false,
+    "image": "https://images.unsplash.com/photo-1592078615290-033ee584e267?auto=format&fit=crop&q=80&w=500",
+    "description": "Authentic style wooden chair with teal upholstery."
+  },
+  {
+    "id": 3,
+    "name": "Ceramic Vase Set",
+    "category": "Decoration",
+    "price": 30,
+    "originalPrice": 0,
+    "sold": true,
+    "image": "https://images.unsplash.com/photo-1581783342308-f792dbdd27c5?auto=format&fit=crop&q=80&w=500",
+    "description": "Set of 3 minimal ceramic vases. One has a small chip."
+  },
+  {
+    "id": 4,
+    "name": "Leather Boots",
+    "category": "Clothes",
+    "price": 60,
+    "originalPrice": 150,
+    "sold": false,
+    "image": "https://images.unsplash.com/photo-1542280756-74c2f5511915?auto=format&fit=crop&q=80&w=500",
+    "description": "Genuine leather boots, size 42. Barely worn."
+  },
+  {
+    "id": 5,
+    "name": "Standing Lamp",
+    "category": "Furniture",
+    "price": 40,
+    "originalPrice": 75,
+    "sold": false,
+    "image": "https://images.unsplash.com/photo-1507473888900-52e1adad5420?auto=format&fit=crop&q=80&w=500",
+    "description": "Industrial style floor lamp. Bulb included."
+  }
+]

@@ -1,0 +1,32 @@
+.story-section {
+    padding: 2rem 0;
+    background-color: #f0ebe5;
+    /* Slightly darker than bg */
+    margin-bottom: 3rem;
+    border-top: 1px dashed var(--color-text);
+    border-bottom: 1px dashed var(--color-text);
+}
+
+.story-content {
+    max-width: 800px;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.story-content h2 {
+    font-family: var(--font-serif);
+    font-size: 2rem;
+    margin-bottom: 1rem;
+    color: var(--color-secondary);
+}
+
+.story-content p {
+    font-size: 1.1rem;
+    margin-bottom: 1rem;
+    color: var(--color-secondary);
+}
+
+.story-highlight {
+    font-weight: bold;
+    font-style: italic;
+}
