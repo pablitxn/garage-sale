@@ -1,18 +1,47 @@
 :root {
+  /* Core Colors */
   --color-bg: #fdfbf7;
-  /* Warm off-white */
+  --color-card-bg: #ffffff;
+  --color-bg-secondary: #eeeeee;
+
   --color-text: #2d2a26;
-  /* Soft black */
+  --color-text-secondary: #5d4037;
+  --color-text-muted: #777777;
+  --color-text-inverse: #ffffff;
+
+  --color-border: #2d2a26;
+  --shadow-color: rgba(0, 0, 0, 0.1);
+  --shadow-color-strong: #2d2a26;
+
   --color-accent: #e65100;
-  /* Burnt orange for urgency/highlights */
-  --color-secondary: #5d4037;
-  /* Brown for narrative elements */
   --color-available: #2e7d32;
   --color-reserved: #f57f17;
   --color-sold: #757575;
+  --color-disabled: #cccccc;
+
   --font-main: 'Inter', system-ui, sans-serif;
   --font-serif: 'Merriweather', serif;
-  /* For story elements */
+}
+
+[data-theme='dark'] {
+  --color-bg: #121212;
+  --color-card-bg: #1e1e1e;
+  --color-bg-secondary: #333333;
+
+  --color-text: #e0e0e0;
+  --color-text-secondary: #b0b0b0;
+  --color-text-muted: #aaaaaa;
+  --color-text-inverse: #121212;
+
+  --color-border: #e0e0e0;
+  --shadow-color: rgba(255, 255, 255, 0.1);
+  --shadow-color-strong: #e0e0e0;
+
+  --color-accent: #ff9800;
+  --color-available: #66bb6a;
+  --color-reserved: #ffa726;
+  --color-sold: #9e9e9e;
+  --color-disabled: #555555;
 }
 
 * {

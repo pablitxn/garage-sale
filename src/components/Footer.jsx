@@ -7,10 +7,11 @@ const Footer = () => {
             <div className="container">
                 <div className="footer-content">
                     <div className="footer-section">
-                        <h3>📍 Retiro</h3>
-                        <p>Calle Falsa 123, Depto 4B</p>
-                        <p>Sábado 15 de Diciembre</p>
-                        <p>10:00 - 18:00 hs</p>
+                        <h3>📞 Contacto</h3>
+                        <p>Coordinamos todo por WhatsApp</p>
+                        <a href="https://wa.me/5491112345678" target="_blank" rel="noopener noreferrer" className="whatsapp-button">
+                            Escribinos al WhatsApp
+                        </a>
                     </div>
                     <div className="footer-section">
                         <h3>💸 Medios de Pago</h3>

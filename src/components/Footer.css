@@ -1,6 +1,6 @@
 .site-footer {
     background-color: var(--color-text);
-    color: #fff;
+    color: var(--color-text-inverse);
     padding: 3rem 0 1rem;
     margin-top: auto;
 }
@@ -22,13 +22,30 @@
 
 .footer-section p {
     margin-bottom: 0.5rem;
-    color: #ddd;
+    color: var(--color-text-secondary);
+}
+
+.whatsapp-button {
+    display: inline-block;
+    margin-top: 0.5rem;
+    padding: 0.75rem 1.5rem;
+    background-color: var(--color-accent);
+    color: var(--color-text-inverse);
+    text-decoration: none;
+    border-radius: 4px;
+    font-weight: bold;
+    transition: all 0.3s ease;
+}
+
+.whatsapp-button:hover {
+    background-color: var(--color-available);
+    transform: translateY(-2px);
 }
 
 .footer-bottom {
     text-align: center;
     padding-top: 2rem;
-    border-top: 1px solid #444;
-    color: #888;
+    border-top: 1px solid var(--color-border);
+    color: var(--color-text-muted);
     font-size: 0.9rem;
 }

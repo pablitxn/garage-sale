@@ -8,9 +8,11 @@ const Story = () => {
                 <div className="story-content">
                     <h2>La Historia</h2>
                     <p>
-                        Después de 7 años en este depto, nos vamos a vivir al sur.
-                        Estas cosas nos acompañaron en momentos increíbles, pero no caben en la nueva vida (ni en la valija).
-                        Preferimos que sigan siendo útiles y contando historias en tu casa a que terminen olvidadas.
+                        Hola! Soy Fiona 🇫🇷. Viví 3 años increíbles en Buenos Aires, pero ahora toca volver a París.
+                        Me llevo mil recuerdos, pero no me puedo llevar los muebles (ni las plantas!).
+                    </p>
+                    <p>
+                        Todo lo que ves acá fue parte de mi hogar porteño. Ojalá encuentren un nuevo lugar donde los quieran tanto como yo.
                     </p>
                     <p className="story-highlight">
                         Todo se va con buena energía. ✨
