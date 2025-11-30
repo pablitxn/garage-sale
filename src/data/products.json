@@ -4,71 +4,159 @@
         "name": "Lámpara de Escritorio Vintage",
         "price": 15,
         "status": "available",
-        "image": "https://images.unsplash.com/photo-1534349762913-96c87130f6bf?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3",
-        "description": "La lámpara que me acompañó escribiendo mi tesis. Funciona perfecto, solo necesita un hogar con mejores vistas.",
-        "category": "Cultura"
+        "images": [
+            "https://images.unsplash.com/photo-1534349762913-96c87130f6bf?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3",
+            "https://images.unsplash.com/photo-1513506003901-1e6a229e2d15?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3",
+            "https://images.unsplash.com/photo-1507473885765-e6ed057f782c?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3"
+        ],
+        "description": "La lámpara que me acompañó escribiendo mi tesis. Funciona perfecto, solo necesita un hogar con mejores vistas. Brazo articulado, luz LED cálida perfecta para leer.",
+        "category": "Cultura",
+        "condition": "Usado - Excelente",
+        "dimensions": {
+            "height": 45,
+            "width": 20,
+            "depth": 15
+        },
+        "dateAdded": "2025-11-15",
+        "dateUpdated": "2025-11-28"
     },
     {
         "id": "2",
         "name": "Sillón de Lectura",
         "price": 45,
         "status": "reserved",
-        "image": "https://images.unsplash.com/photo-1567538096630-e0c55bd6374c?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3",
-        "description": "El lugar perfecto para domingos de lluvia. Tiene una mancha de café que cuenta una historia (y sale con vanish).",
-        "category": "El living"
+        "images": [
+            "https://images.unsplash.com/photo-1567538096630-e0c55bd6374c?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3",
+            "https://images.unsplash.com/photo-1586023492125-27b2c045efd7?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3"
+        ],
+        "description": "El lugar perfecto para domingos de lluvia. Tiene una mancha de café que cuenta una historia (y sale con vanish). Súper cómodo, tapizado en tela color beige.",
+        "category": "El living",
+        "condition": "Usado - Bueno",
+        "dimensions": {
+            "height": 90,
+            "width": 85,
+            "depth": 92
+        },
+        "dateAdded": "2025-11-10",
+        "dateUpdated": "2025-11-27"
     },
     {
         "id": "3",
         "name": "Set de Macetas de Barro",
         "price": 10,
         "status": "available",
-        "image": "https://images.unsplash.com/photo-1485955900006-10f4d324d411?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3",
-        "description": "Mis intentos de jardinería. Las plantas no sobrevivieron, pero las macetas tienen mucha fe.",
-        "category": "Plantas y macetas"
+        "images": [
+            "https://images.unsplash.com/photo-1485955900006-10f4d324d411?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3",
+            "https://images.unsplash.com/photo-1466781783364-36c955e42a7f?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3"
+        ],
+        "description": "Mis intentos de jardinería. Las plantas no sobrevivieron, pero las macetas tienen mucha fe. Set de 4 macetas artesanales de diferentes tamaños con platos.",
+        "category": "Plantas y macetas",
+        "condition": "Como nuevo",
+        "dimensions": {
+            "height": 25,
+            "width": 22,
+            "depth": 22
+        },
+        "dateAdded": "2025-11-18",
+        "dateUpdated": "2025-11-18"
     },
     {
         "id": "4",
         "name": "Colección de Vinilos 80s",
         "price": 30,
         "status": "available",
-        "image": "https://images.unsplash.com/photo-1484704849700-f032a568e944?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3",
-        "description": "Heredados de un tío cool. No tengo tocadiscos, así que merecen sonar de nuevo.",
-        "category": "Cultura"
+        "images": [
+            "https://images.unsplash.com/photo-1484704849700-f032a568e944?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3",
+            "https://images.unsplash.com/photo-1496293455970-f8581aae0e3b?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3",
+            "https://images.unsplash.com/photo-1458560871784-56d23406c091?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3"
+        ],
+        "description": "Heredados de un tío cool. No tengo tocadiscos, así que merecen sonar de nuevo. Incluye clásicos de The Cure, Depeche Mode, y New Order. 12 discos en total.",
+        "category": "Cultura",
+        "condition": "Usado - Excelente",
+        "dimensions": {
+            "height": 32,
+            "width": 32,
+            "depth": 15
+        },
+        "dateAdded": "2025-11-12",
+        "dateUpdated": "2025-11-25"
     },
     {
         "id": "5",
         "name": "Cafetera Italiana",
         "price": 12,
         "status": "sold",
-        "image": "https://images.unsplash.com/photo-1517080319566-a9175040f952?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3",
-        "description": "Hace el mejor café del mundo, pero me mudo con alguien que solo toma té (lo sé, raro).",
-        "category": "Cocina"
+        "images": [
+            "https://images.unsplash.com/photo-1517080319566-a9175040f952?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3"
+        ],
+        "description": "Hace el mejor café del mundo, pero me mudo con alguien que solo toma té (lo sé, raro). Bialetti de 6 tazas, aluminio clásico.",
+        "category": "Cocina",
+        "condition": "Usado - Bueno",
+        "dimensions": {
+            "height": 22,
+            "width": 11,
+            "depth": 11
+        },
+        "dateAdded": "2025-11-08",
+        "dateUpdated": "2025-11-26"
     },
     {
         "id": "6",
         "name": "Espejo de Pie",
         "price": 25,
         "status": "available",
-        "image": "https://images.unsplash.com/photo-1618220179428-22790b461013?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3",
-        "description": "Te ves increíble en él. Comprobado científicamente.",
-        "category": "El living"
+        "images": [
+            "https://images.unsplash.com/photo-1618220179428-22790b461013?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3",
+            "https://images.unsplash.com/photo-1600210492493-0946911123ea?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3"
+        ],
+        "description": "Te ves increíble en él. Comprobado científicamente. Marco de madera color natural, base ajustable.",
+        "category": "El living",
+        "condition": "Usado - Excelente",
+        "dimensions": {
+            "height": 160,
+            "width": 50,
+            "depth": 45
+        },
+        "dateAdded": "2025-11-14",
+        "dateUpdated": "2025-11-20"
     },
     {
         "id": "7",
         "name": "Caja Misteriosa",
         "price": 5,
         "status": "available",
-        "image": "https://images.unsplash.com/photo-1549465220-1a8b9238cd48?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3",
-        "description": "Cosas útiles random. Puede contener: cables que siempre faltan, libretas sin usar, o tesoros perdidos.",
-        "category": "Regalos sorpresa"
+        "images": [
+            "https://images.unsplash.com/photo-1549465220-1a8b9238cd48?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3"
+        ],
+        "description": "Cosas útiles random. Puede contener: cables que siempre faltan, libretas sin usar, o tesoros perdidos. Es una sorpresa incluso para mí.",
+        "category": "Regalos sorpresa",
+        "condition": "Usado - Normal",
+        "dimensions": {
+            "height": 30,
+            "width": 40,
+            "depth": 30
+        },
+        "dateAdded": "2025-11-20",
+        "dateUpdated": "2025-11-20"
     },
     {
         "id": "8",
         "name": "Libro: Cien Años de Soledad",
         "price": 0,
         "status": "available",
-        "image": "https://images.unsplash.com/photo-1544947950-fa07a98d237f?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3",
-        "description": "Gratis para quien prometa leerlo. Una joya que debe circular.",
-        "category": "Cultura"
+        "images": [
+            "https://images.unsplash.com/photo-1544947950-fa07a98d237f?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3",
+            "https://images.unsplash.com/photo-1543002588-bfa74002ed7e?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3"
+        ],
+        "description": "Gratis para quien prometa leerlo. Una joya que debe circular. Edición de bolsillo en español, en excelente estado.",
+        "category": "Cultura",
+        "condition": "Usado - Excelente",
+        "dimensions": {
+            "height": 19,
+            "width": 12,
+            "depth": 3
+        },
+        "dateAdded": "2025-11-22",
+        "dateUpdated": "2025-11-22"
     }
 ]
