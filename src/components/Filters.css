@@ -1,21 +1,23 @@
 .filters-container {
     margin: 0;
+    margin-bottom: 1rem;
 }
 
 .filter-section {
     display: flex;
     align-items: center;
-    justify-content: space-between;
+    justify-content: center;
     gap: 1rem;
     flex-wrap: wrap;
+    flex-direction: column;
 }
 
 .filter-label {
     font-size: 0.9rem;
-    font-weight: 600;
+    font-weight: 700;
     color: var(--color-text-muted);
     text-transform: uppercase;
-    letter-spacing: 0.5px;
+    letter-spacing: 0.6px;
 }
 
 .filters {
@@ -26,6 +28,7 @@
     gap: 0.35rem;
     border: 2px solid var(--color-border);
     flex-wrap: wrap;
+    justify-content: center;
 }
 
 .filter-btn {
@@ -49,7 +52,7 @@
 .filter-btn.active {
     background: var(--color-card-bg);
     color: var(--color-text);
-    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+    box-shadow: 0 2px 8px var(--shadow-color);
 }
 
 /* Dark mode improvements */
@@ -81,10 +84,10 @@
     .filters-container {
         margin: 0;
         padding: 0;
+        margin-bottom: 1rem;
     }
 
     .filter-section {
-        flex-direction: column;
         gap: 0.75rem;
     }
 
@@ -94,14 +97,16 @@
 
     .filters {
         width: 100%;
-        justify-content: center;
+        justify-content: space-between;
         padding: 0.35rem;
+        display: flex;
     }
 
     .filter-btn {
-        padding: 0.55rem 1.1rem;
+        padding: 0.55rem 0;
         font-size: 0.85rem;
         flex: 1;
         text-align: center;
+        white-space: nowrap;
     }
 }
