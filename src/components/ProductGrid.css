@@ -77,21 +77,26 @@
 }
 
 @media (max-width: 768px) {
+    .product-grid-container {
+        padding: 1.5rem 0;
+    }
+
     .product-grid {
         grid-template-columns: 1fr;
-        gap: 1.5rem;
-        padding: 0 0 3rem;
+        gap: 2rem;
+        padding: 0 1rem 3rem;
+    }
+
+    .no-results {
+        padding: 3rem 1.5rem;
     }
 
     .no-results p {
-        font-size: 1.2rem;
+        font-size: 1.3rem;
+        margin-bottom: 0.75rem;
     }
-}
 
-.empty-state {
-    text-align: center;
-    padding: 4rem 0;
-    font-size: 1.2rem;
-    color: #777;
-    font-style: italic;
+    .no-results-hint {
+        font-size: 1.05rem;
+    }
 }

@@ -81,15 +81,26 @@
 
 @media (max-width: 768px) {
     .search-bar-container {
-        margin: 1.5rem 0;
+        margin: 2rem 0;
+        padding: 0 1rem;
     }
 
     .search-bar {
-        padding: 0.6rem 1rem;
+        padding: 0.85rem 1.25rem;
     }
 
     .search-input {
-        font-size: 0.95rem;
-        padding: 0 0.75rem;
+        font-size: 1rem;
+        padding: 0 1rem;
+    }
+
+    .search-icon {
+        width: 22px;
+        height: 22px;
+    }
+
+    .clear-btn {
+        width: 28px;
+        height: 28px;
     }
 }

@@ -1,5 +1,4 @@
 import React from 'react';
-import { WHATSAPP_NUMBER } from '../constants';
 import './ProductCard.css';
 
 const ProductCard = ({ product, onClick }) => {
@@ -10,17 +9,8 @@ const ProductCard = ({ product, onClick }) => {
 
     const getButtonText = () => {
         if (isSold) return 'Ya encontró hogar 🏠';
-        if (isReserved) return 'Alguien lo está pensando...';
-        return '¡Me lo llevo!';
-    };
-
-    const handleWhatsAppClick = (e) => {
-        e.stopPropagation(); // Prevent card click
-        if (isSold) return;
-
-        const message = `Hola! Vi ${product.name} en tu venta de garage. ¿Sigue disponible? Me interesa 🙌`;
-        const encodedMessage = encodeURIComponent(message);
-        window.open(`https://wa.me/${WHATSAPP_NUMBER}?text=${encodedMessage}`, '_blank');
+        if (isReserved) return 'Ver detalles';
+        return 'Ver detalles';
     };
 
     return (
@@ -53,7 +43,6 @@ const ProductCard = ({ product, onClick }) => {
 
                 <button
                     className={`action-btn ${product.status}`}
-                    onClick={handleWhatsAppClick}
                     disabled={isSold}
                 >
                     {getButtonText()}
