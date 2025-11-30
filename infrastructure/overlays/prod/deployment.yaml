@@ -7,4 +7,4 @@ spec:
     spec:
       containers:
         - name: app
-          image: ghcr.io/pablitxn/garage-sale
+          image: ghcr.io/pablitxn/garage-sale:prod
