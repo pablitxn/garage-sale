@@ -99,7 +99,7 @@ jobs:
       - name: Push changes
         run: |-
           git config --global user.email "me@pablitxn.io"
-          git config --global user.name "CI Bot"
+          git config --global user.name "CI Bot "
           git add ./infrastructure/overlays/${{ needs.setup.outputs.overlay }}/kustomization.yaml
           git commit -m "ci: update deployment to latest digest"
           git pull origin ${{ needs.setup.outputs.branch }} --rebase
