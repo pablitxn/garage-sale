@@ -58,8 +58,25 @@
     opacity: 1;
 }
 
+/* Dark mode improvements */
+[data-theme='dark'] .filter-label {
+    color: #aaa;
+}
+
+[data-theme='dark'] .filter-bar-btn {
+    border-color: #555;
+    color: #ccc;
+}
+
 [data-theme='dark'] .filter-bar-btn:hover {
+    border-color: #ff9800;
     background: rgba(255, 152, 0, 0.1);
+}
+
+[data-theme='dark'] .filter-bar-btn.active {
+    background: #ff9800;
+    border-color: #ff9800;
+    color: #121212;
 }
 
 @media (max-width: 768px) {

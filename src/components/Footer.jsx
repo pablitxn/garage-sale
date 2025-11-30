@@ -1,30 +1,30 @@
 import React from 'react';
+import { WHATSAPP_NUMBER } from '../constants';
 import './Footer.css';
 
 const Footer = () => {
+    const handleWhatsAppClick = () => {
+        const message = 'Hola! Vi tu venta de garage y me interesa consultar sobre algunos productos 🙌';
+        const encodedMessage = encodeURIComponent(message);
+        window.open(`https://wa.me/${WHATSAPP_NUMBER}?text=${encodedMessage}`, '_blank');
+    };
+
     return (
         <footer className="site-footer">
             <div className="container">
                 <div className="footer-content">
-                    <div className="footer-section">
-                        <h3>📞 Contacto</h3>
+                    <div className="footer-contact">
+                        <h3>📱 Contacto</h3>
                         <p>Coordinamos todo por WhatsApp</p>
-                        <a href="https://wa.me/5491112345678" target="_blank" rel="noopener noreferrer" className="whatsapp-button">
+                        <button onClick={handleWhatsAppClick} className="whatsapp-button">
                             Escribinos al WhatsApp
-                        </a>
+                        </button>
                     </div>
-                    <div className="footer-section">
-                        <h3>💸 Medios de Pago</h3>
-                        <p>Efectivo, Transferencia, Mercado Pago</p>
+
+                    <div className="footer-disclaimer">
+                        <p>🚚 <strong>No hacemos envíos.</strong> Se retira por el domicilio.</p>
+                        <p className="footer-note">Traé bolsas reutilizables 🌿</p>
                     </div>
-                    <div className="footer-section">
-                        <h3>🚚 Envíos</h3>
-                        <p>No hacemos envíos. Se retira por el domicilio.</p>
-                        <p>Traé bolsas reutilizables! 🌿</p>
-                    </div>
-                </div>
-                <div className="footer-bottom">
-                    <p>Hecho con ❤️ para que estas cosas sigan rodando.</p>
                 </div>
             </div>
         </footer>
