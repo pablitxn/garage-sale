@@ -13,7 +13,6 @@ import './App.css';
 function App() {
   const [statusFilter, setStatusFilter] = useState('all');
   const [categoryFilter, setCategoryFilter] = useState([]);
-  const [searchQuery, setSearchQuery] = useState('');
   const [selectedProduct, setSelectedProduct] = useState(null);
 
   useEffect(() => {
@@ -88,7 +87,6 @@ function App() {
           onToggleCategory={handleToggleCategory}
           onClearCategories={handleClearCategories}
         />
-        <SearchBar searchQuery={searchQuery} onSearchChange={setSearchQuery} />
         <ProductGrid products={filteredProducts} onProductClick={handleProductClick} />
       </main>
       <Footer />
