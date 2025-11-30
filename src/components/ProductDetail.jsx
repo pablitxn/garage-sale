@@ -17,6 +17,7 @@ const ProductDetail = ({ product, onClose }) => {
     if (!product) return null;
 
     const isSold = product.status === 'sold';
+    const isShareDisabled = isSold || product.status === 'reserved';
     const images = product.images || [];
 
     const handlePrevImage = () => {
@@ -40,6 +41,7 @@ const ProductDetail = ({ product, onClose }) => {
     };
 
     const handleShareClick = async () => {
+        if (isShareDisabled) return;
         await shareProduct(product);
     };
 
@@ -184,6 +186,7 @@ const ProductDetail = ({ product, onClose }) => {
                                 className="modal-share-btn"
                                 onClick={handleShareClick}
                                 aria-label={`Compartir ${product.name}`}
+                                disabled={isShareDisabled}
                             >
                                 Compartir
                             </button>

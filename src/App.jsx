@@ -3,7 +3,6 @@ import Header from './components/Header';
 import Story from './components/Story';
 import Filters from './components/Filters';
 import FilterBar from './components/FilterBar';
-import SearchBar from './components/SearchBar';
 import ProductGrid from './components/ProductGrid';
 import ProductDetail from './components/ProductDetail';
 import Footer from './components/Footer';
@@ -48,18 +47,6 @@ function App() {
     // Filter by category
     if (categoryFilter.length > 0 && !categoryFilter.includes(product.category)) {
       return false;
-    }
-
-    // Filter by search query
-    if (searchQuery) {
-      const query = searchQuery.toLowerCase();
-      const matchesName = product.name.toLowerCase().includes(query);
-      const matchesDescription = product.description.toLowerCase().includes(query);
-      const matchesCategory = product.category.toLowerCase().includes(query);
-
-      if (!matchesName && !matchesDescription && !matchesCategory) {
-        return false;
-      }
     }
 
     return true;
