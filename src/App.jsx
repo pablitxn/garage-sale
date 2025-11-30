@@ -1,4 +1,4 @@
-import React, { useState } from 'react';
+import React, { useEffect, useState } from 'react';
 import Header from './components/Header';
 import Story from './components/Story';
 import Filters from './components/Filters';
@@ -16,6 +16,28 @@ function App() {
   const [categoryFilter, setCategoryFilter] = useState('All');
   const [searchQuery, setSearchQuery] = useState('');
   const [selectedProduct, setSelectedProduct] = useState(null);
+
+  useEffect(() => {
+    const handlePopState = () => {
+      setSelectedProduct((prev) => (prev ? null : prev));
+    };
+
+    window.addEventListener('popstate', handlePopState);
+
+    return () => {
+      window.removeEventListener('popstate', handlePopState);
+    };
+  }, []);
+
+  useEffect(() => {
+    if (selectedProduct) {
+      window.history.pushState(
+        { modal: 'product', productId: selectedProduct.id },
+        '',
+        window.location.href,
+      );
+    }
+  }, [selectedProduct]);
 
   const filteredProducts = productsData.filter(product => {
     // Filter by status
@@ -48,7 +70,11 @@ function App() {
   };
 
   const handleCloseDetail = () => {
-    setSelectedProduct(null);
+    if (window.history.state?.modal === 'product') {
+      window.history.back();
+    } else {
+      setSelectedProduct(null);
+    }
   };
 
   return (
