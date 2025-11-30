@@ -2,7 +2,7 @@ apiVersion: cert-manager.io/v1
 kind: Certificate
 metadata:
   name: garage-sale-orchid-labs-tls
-  namespace: garage-sale
+  namespace: garage-sale-prod
 spec:
   secretName: garage-sale-orchid-labs-tls
   issuerRef:
