@@ -7,3 +7,35 @@
 main {
   flex: 1;
 }
+
+.controls-section {
+  margin: 2.5rem auto 2rem;
+  padding: 0 1rem;
+}
+
+.controls-card {
+  background: var(--color-card-bg);
+  border: 2px solid var(--color-border);
+  border-radius: 18px;
+  box-shadow: 6px 6px 0 var(--shadow-color-strong);
+  max-width: 1100px;
+  margin: 0 auto;
+  padding: 1.75rem 2rem;
+  display: flex;
+  flex-direction: column;
+  gap: 1.25rem;
+}
+
+@media (max-width: 768px) {
+  .controls-section {
+    margin: 2rem auto;
+    padding: 0 1.25rem;
+  }
+
+  .controls-card {
+    border-radius: 14px;
+    box-shadow: 4px 4px 0 var(--shadow-color-strong);
+    padding: 1.25rem 1.35rem;
+    gap: 1rem;
+  }
+}
