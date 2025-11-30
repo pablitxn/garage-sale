@@ -16,7 +16,13 @@ const ProductCard = ({ product, onClick }) => {
     return (
         <div className={`product-card ${product.status}`} onClick={onClick}>
             <div className="product-image-container">
-                <img src={mainImage} alt={product.name} className="product-image" />
+                <img
+                    src={mainImage}
+                    alt={product.name}
+                    className="product-image"
+                    loading="lazy"
+                    decoding="async"
+                />
                 {product.status !== 'available' && (
                     <div className="status-badge">
                         {isSold ? 'VENDIDO' : 'RESERVADO'}
