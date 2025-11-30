@@ -3,7 +3,6 @@ import Header from './components/Header';
 import Story from './components/Story';
 import Filters from './components/Filters';
 import FilterBar from './components/FilterBar';
-import SearchBar from './components/SearchBar';
 import ProductGrid from './components/ProductGrid';
 import ProductDetail from './components/ProductDetail';
 import Footer from './components/Footer';
@@ -14,7 +13,6 @@ import './App.css';
 function App() {
   const [statusFilter, setStatusFilter] = useState('all');
   const [categoryFilter, setCategoryFilter] = useState('All');
-  const [searchQuery, setSearchQuery] = useState('');
   const [selectedProduct, setSelectedProduct] = useState(null);
 
   useEffect(() => {
@@ -50,18 +48,6 @@ function App() {
       return false;
     }
 
-    // Filter by search query
-    if (searchQuery) {
-      const query = searchQuery.toLowerCase();
-      const matchesName = product.name.toLowerCase().includes(query);
-      const matchesDescription = product.description.toLowerCase().includes(query);
-      const matchesCategory = product.category.toLowerCase().includes(query);
-
-      if (!matchesName && !matchesDescription && !matchesCategory) {
-        return false;
-      }
-    }
-
     return true;
   });
 
@@ -82,13 +68,16 @@ function App() {
       <Header />
       <main>
         <Story />
-        <Filters currentFilter={statusFilter} onFilterChange={setStatusFilter} />
-        <FilterBar
-          categories={CATEGORIES}
-          activeCategory={categoryFilter}
-          onSelectCategory={setCategoryFilter}
-        />
-        <SearchBar searchQuery={searchQuery} onSearchChange={setSearchQuery} />
+        <section className="controls-section">
+          <div className="controls-card">
+            <Filters currentFilter={statusFilter} onFilterChange={setStatusFilter} />
+            <FilterBar
+              categories={CATEGORIES}
+              activeCategory={categoryFilter}
+              onSelectCategory={setCategoryFilter}
+            />
+          </div>
+        </section>
         <ProductGrid products={filteredProducts} onProductClick={handleProductClick} />
       </main>
       <Footer />

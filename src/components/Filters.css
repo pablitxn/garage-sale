@@ -1,12 +1,13 @@
 .filters-container {
-    margin: 1.5rem 0 0.5rem;
+    margin: 0;
 }
 
 .filter-section {
     display: flex;
     align-items: center;
-    justify-content: center;
+    justify-content: space-between;
     gap: 1rem;
+    flex-wrap: wrap;
 }
 
 .filter-label {
@@ -24,6 +25,7 @@
     border-radius: 50px;
     gap: 0.35rem;
     border: 2px solid var(--color-border);
+    flex-wrap: wrap;
 }
 
 .filter-btn {
@@ -77,8 +79,8 @@
 
 @media (max-width: 768px) {
     .filters-container {
-        margin: 1.5rem 0 0.5rem;
-        padding: 0 1rem;
+        margin: 0;
+        padding: 0;
     }
 
     .filter-section {
