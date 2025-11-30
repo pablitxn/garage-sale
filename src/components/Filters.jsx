@@ -10,16 +10,19 @@ const Filters = ({ currentFilter, onFilterChange }) => {
 
     return (
         <div className="filters-container">
-            <div className="filters">
-                {filters.map((f) => (
-                    <button
-                        key={f.id}
-                        className={`filter-btn ${currentFilter === f.id ? 'active' : ''}`}
-                        onClick={() => onFilterChange(f.id)}
-                    >
-                        {f.label}
-                    </button>
-                ))}
+            <div className="filter-section">
+                <span className="filter-label">Estado:</span>
+                <div className="filters">
+                    {filters.map((f) => (
+                        <button
+                            key={f.id}
+                            className={`filter-btn ${currentFilter === f.id ? 'active' : ''}`}
+                            onClick={() => onFilterChange(f.id)}
+                        >
+                            {f.label}
+                        </button>
+                    ))}
+                </div>
             </div>
         </div>
     );

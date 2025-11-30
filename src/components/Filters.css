@@ -1,56 +1,89 @@
 .filters-container {
-    margin: 2rem 0;
+    margin: 1.5rem 0 0.5rem;
+}
+
+.filter-section {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 1rem;
+}
+
+.filter-label {
+    font-size: 0.9rem;
+    font-weight: 600;
+    color: var(--color-text-muted);
+    text-transform: uppercase;
+    letter-spacing: 0.5px;
 }
 
 .filters {
-    display: flex;
-    gap: 1rem;
-    justify-content: center;
-    flex-wrap: wrap;
+    display: inline-flex;
+    background: var(--color-bg-secondary);
+    padding: 0.4rem;
+    border-radius: 50px;
+    gap: 0.35rem;
+    border: 2px solid var(--color-border);
 }
 
 .filter-btn {
-    padding: 0.75rem 1.5rem;
-    border: 2px solid var(--color-border);
-    background: var(--color-card-bg);
-    color: var(--color-text);
-    border-radius: 25px;
-    font-size: 1rem;
-    font-weight: 500;
+    padding: 0.6rem 1.3rem;
+    border-radius: 50px;
+    font-size: 0.9rem;
+    font-weight: 600;
+    color: var(--color-text-muted);
+    transition: all 0.25s ease;
+    background: transparent;
+    border: none;
     cursor: pointer;
-    transition: all 0.2s ease;
-    box-shadow: 2px 2px 0 var(--shadow-color);
+    position: relative;
 }
 
-.filter-btn:hover {
-    transform: translate(-2px, -2px);
-    box-shadow: 4px 4px 0 var(--shadow-color-strong);
+.filter-btn:hover:not(.active) {
+    color: var(--color-text);
+    background: rgba(0, 0, 0, 0.05);
 }
 
 .filter-btn.active {
-    background: var(--color-accent);
-    color: var(--color-text-inverse);
-    border-color: var(--color-accent);
-    box-shadow: 3px 3px 0 var(--shadow-color-strong);
+    background: var(--color-card-bg);
+    color: var(--color-text);
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
 }
 
-.filter-btn.active:hover {
-    transform: translate(-1px, -1px);
-    box-shadow: 4px 4px 0 var(--shadow-color-strong);
+[data-theme='dark'] .filter-btn:hover:not(.active) {
+    background: rgba(255, 255, 255, 0.05);
+}
+
+[data-theme='dark'] .filter-btn.active {
+    background: var(--color-card-bg);
+    box-shadow: 0 2px 8px rgba(255, 255, 255, 0.1);
 }
 
 @media (max-width: 768px) {
     .filters-container {
-        margin: 2rem 0 1.5rem;
+        margin: 1.5rem 0 0.5rem;
         padding: 0 1rem;
     }
 
-    .filters {
+    .filter-section {
+        flex-direction: column;
         gap: 0.75rem;
     }
 
+    .filter-label {
+        font-size: 0.85rem;
+    }
+
+    .filters {
+        width: 100%;
+        justify-content: center;
+        padding: 0.35rem;
+    }
+
     .filter-btn {
-        padding: 0.7rem 1.3rem;
-        font-size: 0.95rem;
+        padding: 0.55rem 1.1rem;
+        font-size: 0.85rem;
+        flex: 1;
+        text-align: center;
     }
 }
