@@ -13,7 +13,7 @@ import './App.css';
 
 function App() {
   const [statusFilter, setStatusFilter] = useState('all');
-  const [categoryFilter, setCategoryFilter] = useState('All');
+  const [categoryFilter, setCategoryFilter] = useState([]);
   const [searchQuery, setSearchQuery] = useState('');
   const [selectedProduct, setSelectedProduct] = useState(null);
 
@@ -46,7 +46,7 @@ function App() {
     }
 
     // Filter by category
-    if (categoryFilter !== 'All' && product.category !== categoryFilter) {
+    if (categoryFilter.length > 0 && !categoryFilter.includes(product.category)) {
       return false;
     }
 
@@ -64,6 +64,18 @@ function App() {
 
     return true;
   });
+
+  const handleToggleCategory = (category) => {
+    setCategoryFilter((prev) =>
+      prev.includes(category)
+        ? prev.filter((item) => item !== category)
+        : [...prev, category],
+    );
+  };
+
+  const handleClearCategories = () => {
+    setCategoryFilter([]);
+  };
 
   const handleProductClick = (product) => {
     setSelectedProduct(product);
@@ -85,8 +97,9 @@ function App() {
         <Filters currentFilter={statusFilter} onFilterChange={setStatusFilter} />
         <FilterBar
           categories={CATEGORIES}
-          activeCategory={categoryFilter}
-          onSelectCategory={setCategoryFilter}
+          activeCategories={categoryFilter}
+          onToggleCategory={handleToggleCategory}
+          onClearCategories={handleClearCategories}
         />
         <SearchBar searchQuery={searchQuery} onSearchChange={setSearchQuery} />
         <ProductGrid products={filteredProducts} onProductClick={handleProductClick} />
