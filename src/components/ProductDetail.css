@@ -270,6 +270,12 @@
     color: var(--color-text);
 }
 
+.modal-actions {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 0.75rem;
+}
+
 .modal-action-btn {
     width: 100%;
     padding: 1rem;
@@ -305,6 +311,31 @@
     color: var(--color-text-muted);
     cursor: not-allowed;
     box-shadow: none;
+}
+
+.modal-share-btn {
+    width: 100%;
+    padding: 1rem;
+    font-weight: 800;
+    font-size: 1.05rem;
+    border: 2px dashed var(--color-border);
+    border-radius: 10px;
+    background: var(--color-bg-secondary);
+    color: var(--color-text);
+    cursor: pointer;
+    transition: transform 0.16s ease, box-shadow 0.16s ease, background 0.16s ease;
+    box-shadow: 3px 3px 0 var(--shadow-color-strong);
+}
+
+.modal-share-btn:hover {
+    transform: translate(-2px, -2px);
+    box-shadow: 5px 5px 0 var(--shadow-color-strong);
+    background: var(--color-card-bg);
+}
+
+.modal-share-btn:active {
+    transform: translate(0, 0);
+    box-shadow: 0 0 0 var(--shadow-color-strong);
 }
 
 @media (max-width: 768px) {
@@ -390,6 +421,10 @@
         bottom: 0;
         padding: 1.05rem;
         box-shadow: 2px 2px 0 var(--shadow-color-strong);
+    }
+
+    .modal-actions {
+        grid-template-columns: 1fr;
     }
 
     .gallery-btn {
