@@ -10,6 +10,6 @@ patches:
 - path: config-map.yaml
 - path: deployment.yaml
 images:
-- digest: sha256:274c6a177e77ac55b38e46dc6a999d49b41944570d537d74c7949b5028e71401
+- digest: sha256:04fba8ac23bacc216f085876747324decc0025d1eb547654ec426bc353dc9a88
   name: ghcr.io/pablitxn/garage-sale:prod
   newName: ghcr.io/pablitxn/garage-sale
