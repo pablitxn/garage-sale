@@ -71,6 +71,8 @@ const ProductDetail = ({ product, onClose }) => {
                                     src={images[currentImageIndex]}
                                     alt={`${product.name} - imagen ${currentImageIndex + 1}`}
                                     className="modal-image"
+                                    loading="lazy"
+                                    decoding="async"
                                 />
                                 {images.length > 1 && (
                                     <>

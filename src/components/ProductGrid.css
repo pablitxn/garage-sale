@@ -14,6 +14,13 @@
     opacity: 0;
 }
 
+@media (max-width: 768px) {
+    .product-grid .product-card {
+        animation: none;
+        opacity: 1;
+    }
+}
+
 /* Staggered animation for cards */
 .product-grid .product-card:nth-child(1) {
     animation-delay: 0.05s;
