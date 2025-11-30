@@ -46,6 +46,19 @@
     filter: grayscale(0.6);
 }
 
+.product-card.sold .product-image-container::after {
+    content: '';
+    position: absolute;
+    inset: 0;
+    background: rgba(0, 0, 0, 0.35);
+    pointer-events: none;
+}
+
+.product-card.sold .product-image {
+    filter: grayscale(1) brightness(0.85);
+    opacity: 0.6;
+}
+
 .product-image-container {
     position: relative;
     height: 280px;
