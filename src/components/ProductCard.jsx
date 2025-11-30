@@ -7,6 +7,7 @@ const ProductCard = ({ product, onClick }) => {
     const isReserved = product.status === 'reserved';
     const images = product.images || [];
     const mainImage = images[0] || product.image; // Fallback to single image if exists
+    const isShareDisabled = isSold || isReserved;
 
     const getButtonText = () => {
         if (isSold) return 'Ya encontró hogar 🏠';
@@ -16,6 +17,7 @@ const ProductCard = ({ product, onClick }) => {
 
     const handleShareClick = async (event) => {
         event.stopPropagation();
+        if (isShareDisabled) return;
         await shareProduct(product);
     };
 
@@ -69,6 +71,7 @@ const ProductCard = ({ product, onClick }) => {
                         className="share-btn"
                         onClick={handleShareClick}
                         aria-label={`Compartir ${product.name}`}
+                        disabled={isShareDisabled}
                     >
                         Compartir
                     </button>
