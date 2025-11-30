@@ -1,5 +1,6 @@
 import React from 'react';
 import './ProductCard.css';
+import { shareProduct } from '../utils/shareProduct';
 
 const ProductCard = ({ product, onClick }) => {
     const isSold = product.status === 'sold';
@@ -13,8 +14,17 @@ const ProductCard = ({ product, onClick }) => {
         return 'Ver detalles';
     };
 
+    const handleShareClick = async (event) => {
+        event.stopPropagation();
+        await shareProduct(product);
+    };
+
     return (
-        <div className={`product-card ${product.status}`} onClick={onClick}>
+        <div
+            id={`producto-${product.id}`}
+            className={`product-card ${product.status}`}
+            onClick={onClick}
+        >
             <div className="product-image-container">
                 <img
                     src={mainImage}
@@ -47,12 +57,22 @@ const ProductCard = ({ product, onClick }) => {
                 )}
                 <p className="product-description">{product.description}</p>
 
-                <button
-                    className={`action-btn ${product.status}`}
-                    disabled={isSold}
-                >
-                    {getButtonText()}
-                </button>
+                <div className="card-actions">
+                    <button
+                        className={`action-btn ${product.status}`}
+                        disabled={isSold}
+                    >
+                        {getButtonText()}
+                    </button>
+                    <button
+                        type="button"
+                        className="share-btn"
+                        onClick={handleShareClick}
+                        aria-label={`Compartir ${product.name}`}
+                    >
+                        Compartir
+                    </button>
+                </div>
             </div>
         </div>
     );

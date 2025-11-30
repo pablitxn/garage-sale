@@ -148,6 +148,12 @@
     line-height: 1.6;
 }
 
+.card-actions {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 0.75rem;
+}
+
 .action-btn {
     width: 100%;
     padding: 0.9rem;
@@ -199,6 +205,30 @@
     color: var(--color-text-muted);
     cursor: not-allowed;
     box-shadow: none;
+}
+
+.share-btn {
+    width: 100%;
+    padding: 0.9rem;
+    font-weight: 700;
+    font-size: 1rem;
+    border: 2px dashed var(--color-border);
+    border-radius: 8px;
+    background: var(--color-bg-secondary);
+    color: var(--color-text);
+    transition: all 0.25s cubic-bezier(0.4, 0, 0.2, 1);
+    box-shadow: 3px 3px 0 var(--shadow-color-strong);
+}
+
+.share-btn:hover {
+    transform: translate(-3px, -3px);
+    box-shadow: 6px 6px 0 var(--shadow-color-strong);
+    background: var(--color-card-bg);
+}
+
+.share-btn:active {
+    transform: translate(0, 0);
+    box-shadow: 1px 1px 0 var(--shadow-color-strong);
 }
 
 @media (max-width: 768px) {

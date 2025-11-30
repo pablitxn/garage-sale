@@ -1,5 +1,6 @@
 import React, { useState, useEffect } from 'react';
 import { WHATSAPP_NUMBER } from '../constants';
+import { shareProduct } from '../utils/shareProduct';
 import './ProductDetail.css';
 
 const ProductDetail = ({ product, onClose }) => {
@@ -36,6 +37,10 @@ const ProductDetail = ({ product, onClose }) => {
         const message = `Hola! Vi ${product.name} en tu venta de garage. ¿Sigue disponible? Me interesa 🙌`;
         const encodedMessage = encodeURIComponent(message);
         window.open(`https://wa.me/${WHATSAPP_NUMBER}?text=${encodedMessage}`, '_blank');
+    };
+
+    const handleShareClick = async () => {
+        await shareProduct(product);
     };
 
     const handleBackdropClick = (e) => {
@@ -166,13 +171,23 @@ const ProductDetail = ({ product, onClose }) => {
                             </div>
                         </div>
 
-                        <button
-                            className={`modal-action-btn ${product.status}`}
-                            onClick={handleWhatsAppClick}
-                            disabled={isSold}
-                        >
-                            {isSold ? 'Ya encontró hogar 🏠' : '¡Me interesa! Contactar por WhatsApp'}
-                        </button>
+                        <div className="modal-actions">
+                            <button
+                                className={`modal-action-btn ${product.status}`}
+                                onClick={handleWhatsAppClick}
+                                disabled={isSold}
+                            >
+                                {isSold ? 'Ya encontró hogar 🏠' : '¡Me interesa! Contactar por WhatsApp'}
+                            </button>
+                            <button
+                                type="button"
+                                className="modal-share-btn"
+                                onClick={handleShareClick}
+                                aria-label={`Compartir ${product.name}`}
+                            >
+                                Compartir
+                            </button>
+                        </div>
                     </div>
                 </div>
             </div>
