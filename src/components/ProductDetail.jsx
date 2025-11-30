@@ -64,7 +64,7 @@ const ProductDetail = ({ product, onClose }) => {
                 </button>
 
                 <div className="modal-body">
-                    <div className="modal-gallery">
+                    <div className={`modal-gallery ${product.status}`}>
                         {images.length > 0 && (
                             <>
                                 <img
