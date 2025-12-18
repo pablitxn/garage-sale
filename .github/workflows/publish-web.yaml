@@ -1,6 +1,7 @@
 name: Publish `web` to GitHub Container Registry
 
 on:
+  workflow_dispatch:
   push:
     branches: [main, dev]
     paths:
