@@ -2,10 +2,14 @@ apiVersion: kustomize.config.k8s.io/v1beta1
 kind: Kustomization
 
 resources:
-  - ../../base/
-  - ingress-route.yaml
-  - certificate.yaml
+- ../../base/
+- ingress-route.yaml
+- certificate.yaml
 
 patches:
-  - path: config-map.yaml
-  - path: deployment.yaml
+- path: config-map.yaml
+- path: deployment.yaml
+images:
+- digest: sha256:0cc3e7924f8048853f0939ab5a30d24ea339af9b88e8d194994750045dbbf5e0
+  name: ghcr.io/pablitxn/garage-sale:dev
+  newName: ghcr.io/pablitxn/garage-sale
