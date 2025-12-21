@@ -5,8 +5,8 @@
     "price": 15,
     "status": "available",
     "images": [
-      "https://images.pexels.com/photos/20398189/pexels-photo-20398189.jpeg?cs=srgb&dl=pexels-skylake-20398189.jpg&fm=jpg",
-      "https://images.unsplash.com/photo-1513506003901-1e6a229e2d15?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3"
+      "https://pub-ad7b08f18499474e911b970060b5baa1.r2.dev/images/IMG_20251124_161722.jpg",
+      "https://pub-ad7b08f18499474e911b970060b5baa1.r2.dev/images/IMG_20251124_162536.jpg"
     ],
     "description": "La lámpara que me acompañó escribiendo mi tesis. Funciona perfecto, solo necesita un hogar con mejores vistas. Brazo articulado, luz LED cálida perfecta para leer.",
     "category": "Cultura",
@@ -25,9 +25,9 @@
     "price": 45,
     "status": "reserved",
     "images": [
-      "https://images.pexels.com/photos/16092258/pexels-photo-16092258.jpeg?cs=srgb&dl=pexels-helloaesthe-16092258.jpg&fm=jpg",
-      "https://images.unsplash.com/photo-1567538096630-e0c55bd6374c?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3",
-      "https://images.unsplash.com/photo-1586023492125-27b2c045efd7?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3"
+      "https://pub-ad7b08f18499474e911b970060b5baa1.r2.dev/images/IMG_20251124_162633.jpg",
+      "https://pub-ad7b08f18499474e911b970060b5baa1.r2.dev/images/IMG_20251124_162839.jpg",
+      "https://pub-ad7b08f18499474e911b970060b5baa1.r2.dev/images/IMG_20251124_163328.jpg"
     ],
     "description": "El lugar perfecto para domingos de lluvia. Tiene una mancha de café que cuenta una historia (y sale con vanish). Súper cómodo, tapizado en tela color beige.",
     "category": "El living",
@@ -46,9 +46,8 @@
     "price": 10,
     "status": "available",
     "images": [
-      "https://images.pexels.com/photos/8503259/pexels-photo-8503259.jpeg?cs=srgb&dl=pexels-amar-8503259.jpg&fm=jpg",
-      "https://images.unsplash.com/photo-1485955900006-10f4d324d411?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3",
-      "https://images.unsplash.com/photo-1466781783364-36c955e42a7f?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3"
+      "https://pub-ad7b08f18499474e911b970060b5baa1.r2.dev/images/IMG_20251124_164509.jpg",
+      "https://pub-ad7b08f18499474e911b970060b5baa1.r2.dev/images/IMG_20251124_164543.jpg"
     ],
     "description": "Mis intentos de jardinería. Las plantas no sobrevivieron, pero las macetas tienen mucha fe. Set de 4 macetas artesanales de diferentes tamaños con platos.",
     "category": "Plantas y macetas",
@@ -67,10 +66,8 @@
     "price": 30,
     "status": "available",
     "images": [
-      "https://images.pexels.com/photos/4200745/pexels-photo-4200745.jpeg?cs=srgb&dl=pexels-matthiasgroeneveld-4200745.jpg&fm=jpg",
-      "https://images.unsplash.com/photo-1484704849700-f032a568e944?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3",
-      "https://images.unsplash.com/photo-1496293455970-f8581aae0e3b?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3",
-      "https://images.unsplash.com/photo-1458560871784-56d23406c091?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3"
+      "https://pub-ad7b08f18499474e911b970060b5baa1.r2.dev/images/IMG_20251124_170015.jpg",
+      "https://pub-ad7b08f18499474e911b970060b5baa1.r2.dev/images/IMG_20251124_170217.jpg"
     ],
     "description": "Heredados de un tío cool. No tengo tocadiscos, así que merecen sonar de nuevo. Incluye clásicos de The Cure, Depeche Mode, y New Order. 12 discos en total.",
     "category": "Cultura",
@@ -89,7 +86,7 @@
     "price": 12,
     "status": "sold",
     "images": [
-      "https://images.pexels.com/photos/15763951/pexels-photo-15763951.jpeg?cs=srgb&dl=pexels-hellojoshwithers-15763951.jpg&fm=jpg"
+      "https://pub-ad7b08f18499474e911b970060b5baa1.r2.dev/images/IMG_20251130_140641.jpg"
     ],
     "description": "Hace el mejor café del mundo, pero me mudo con alguien que solo toma té (lo sé, raro). Bialetti de 6 tazas, aluminio clásico.",
     "category": "Cocina",
@@ -108,9 +105,8 @@
     "price": 25,
     "status": "available",
     "images": [
-      "https://images.pexels.com/photos/21852583/pexels-photo-21852583.jpeg?cs=srgb&dl=pexels-casnafu-21852583.jpg&fm=jpg",
-      "https://images.unsplash.com/photo-1618220179428-22790b461013?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3",
-      "https://images.unsplash.com/photo-1600210492493-0946911123ea?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3"
+      "https://pub-ad7b08f18499474e911b970060b5baa1.r2.dev/images/IMG_20250704_120626.jpg",
+      "https://pub-ad7b08f18499474e911b970060b5baa1.r2.dev/images/IMG_20250704_120930.jpg"
     ],
     "description": "Te ves increíble en él. Comprobado científicamente. Marco de madera color natural, base ajustable.",
     "category": "El living",
@@ -129,7 +125,7 @@
     "price": 5,
     "status": "available",
     "images": [
-      "https://images.unsplash.com/photo-1549465220-1a8b9238cd48?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3"
+      "https://pub-ad7b08f18499474e911b970060b5baa1.r2.dev/images/IMG_20250714_120350.jpg"
     ],
     "description": "Cosas útiles random. Puede contener: cables que siempre faltan, libretas sin usar, o tesoros perdidos. Es una sorpresa incluso para mí.",
     "category": "Regalos sorpresa",
@@ -148,8 +144,8 @@
     "price": 0,
     "status": "available",
     "images": [
-      "https://images.unsplash.com/photo-1544947950-fa07a98d237f?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3",
-      "https://images.unsplash.com/photo-1543002588-bfa74002ed7e?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3"
+      "https://pub-ad7b08f18499474e911b970060b5baa1.r2.dev/images/IMG_20250815_103706.jpg",
+      "https://pub-ad7b08f18499474e911b970060b5baa1.r2.dev/images/IMG_20251120_123326.jpg"
     ],
     "description": "Gratis para quien prometa leerlo. Una joya que debe circular. Edición de bolsillo en español, en excelente estado.",
     "category": "Cultura",

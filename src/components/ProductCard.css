@@ -46,7 +46,7 @@
 
 .product-image-container {
     position: relative;
-    height: 280px;
+    aspect-ratio: 3 / 4;
     overflow: hidden;
     border-bottom: 2px solid var(--color-border);
     background: var(--color-bg-secondary);
@@ -266,7 +266,7 @@
     }
 
     .product-image-container {
-        height: 260px;
+        aspect-ratio: 4 / 5;
     }
 
     .product-info {
