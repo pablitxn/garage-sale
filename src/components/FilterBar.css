@@ -103,7 +103,7 @@
         padding: 0;
         margin: 0;
         width: 100vw;
-        margin-left: -1rem;
+        margin-left: -1.25rem;
         /* Counteract container padding */
     }
 
@@ -113,7 +113,7 @@
     }
 
     .filter-labels {
-        padding: 0 1rem;
+        padding: 0 1.25rem;
     }
 
     .filter-label {
@@ -124,7 +124,7 @@
         flex-wrap: nowrap;
         overflow-x: auto;
         justify-content: flex-start;
-        padding: 0.25rem 1rem 1rem 1rem;
+        padding: 0.25rem 1.25rem 1rem 1.25rem;
         -webkit-overflow-scrolling: touch;
         scrollbar-width: none;
         /* Firefox */

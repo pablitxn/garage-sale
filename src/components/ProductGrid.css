@@ -10,15 +10,13 @@
 }
 
 .product-grid .product-card {
-    animation: fadeIn 0.6s ease forwards;
-    opacity: 0;
-    will-change: transform, opacity;
+    opacity: 1;
 }
 
-@media (max-width: 768px) {
+@media (min-width: 769px) {
     .product-grid .product-card {
-        animation: none;
-        opacity: 1;
+        animation: fadeIn 0.6s ease forwards;
+        opacity: 0;
     }
 }
 
@@ -92,7 +90,7 @@
     .product-grid {
         grid-template-columns: 1fr;
         gap: 1.5rem;
-        padding: 0 1rem 3rem;
+        padding: 0 1.25rem 3rem;
     }
 
     .no-results {
