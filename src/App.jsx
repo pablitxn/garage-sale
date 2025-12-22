@@ -1,18 +1,13 @@
 import React, { useEffect, useState } from 'react';
 import Header from './components/Header';
 import Story from './components/Story';
-import Filters from './components/Filters';
-import FilterBar from './components/FilterBar';
 import ProductGrid from './components/ProductGrid';
 import ProductDetail from './components/ProductDetail';
 import Footer from './components/Footer';
 import productsData from './data/products.json';
-import { CATEGORIES } from './constants';
 import './App.css';
 
 function App() {
-  const [statusFilter, setStatusFilter] = useState('all');
-  const [categoryFilter, setCategoryFilter] = useState([]);
   const [selectedProduct, setSelectedProduct] = useState(null);
 
   useEffect(() => {
@@ -37,32 +32,6 @@ function App() {
     }
   }, [selectedProduct]);
 
-  const filteredProducts = productsData.filter(product => {
-    // Filter by status
-    if (statusFilter !== 'all' && product.status !== statusFilter) {
-      return false;
-    }
-
-    // Filter by category
-    if (categoryFilter.length > 0 && !categoryFilter.includes(product.category)) {
-      return false;
-    }
-
-    return true;
-  });
-
-  const handleToggleCategory = (category) => {
-    setCategoryFilter((prev) =>
-      prev.includes(category)
-        ? prev.filter((item) => item !== category)
-        : [...prev, category],
-    );
-  };
-
-  const handleClearCategories = () => {
-    setCategoryFilter([]);
-  };
-
   const handleProductClick = (product) => {
     setSelectedProduct(product);
   };
@@ -80,14 +49,7 @@ function App() {
       <Header />
       <main>
         <Story />
-        <Filters currentFilter={statusFilter} onFilterChange={setStatusFilter} />
-        <FilterBar
-          categories={CATEGORIES}
-          activeCategories={categoryFilter}
-          onToggleCategory={handleToggleCategory}
-          onClearCategories={handleClearCategories}
-        />
-        <ProductGrid products={filteredProducts} onProductClick={handleProductClick} />
+        <ProductGrid products={productsData} onProductClick={handleProductClick} />
       </main>
       <Footer />
       {selectedProduct && (
