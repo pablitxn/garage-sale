@@ -1,161 +1,246 @@
 [
   {
     "id": "1",
-    "name": "Lámpara de Escritorio Vintage",
-    "price": 15,
+    "name": "Set de Frascos de Vidrio con Tapa Metálica",
+    "price": 18,
     "status": "available",
     "images": [
-      "https://pub-ad7b08f18499474e911b970060b5baa1.r2.dev/images/IMG_20251124_161722.jpg",
-      "https://pub-ad7b08f18499474e911b970060b5baa1.r2.dev/images/IMG_20251124_162536.jpg"
+      "https://pub-ad7b08f18499474e911b970060b5baa1.r2.dev/images/IMG_20250704_120626.jpg"
     ],
-    "description": "La lámpara que me acompañó escribiendo mi tesis. Funciona perfecto, solo necesita un hogar con mejores vistas. Brazo articulado, luz LED cálida perfecta para leer.",
-    "category": "Cultura",
+    "description": "Set de frascos de vidrio transparentes con tapa metálica a rosca. Ideales para especias, té, café, semillas o pequeños objetos. Están sin uso, aún en su caja original. Diseño simple y funcional, fáciles de integrar en cualquier cocina.",
+    "category": "Hogar",
+    "condition": "Nuevo",
+    "dimensions": {
+      "height": 9,
+      "width": 8,
+      "depth": 8
+    },
+    "dateAdded": "2025-12-21",
+    "dateUpdated": "2025-12-21"
+  },
+  {
+    "id": "2",
+    "name": "Alfombra Tejida Artesanal Clara",
+    "price": 25,
+    "status": "available",
+    "images": [
+      "https://pub-ad7b08f18499474e911b970060b5baa1.r2.dev/images/IMG_20250704_120930.jpg"
+    ],
+    "description": "Alfombra tejida en tonos claros, de textura suave y flecos laterales. Ideal para pasillos, dormitorios o al pie de la cama. Aporta calidez y un look natural sin recargar el espacio.",
+    "category": "Decoración",
+    "condition": "Usado - Muy buen estado",
+    "dimensions": {
+      "height": 140,
+      "width": 60,
+      "depth": 1
+    },
+    "dateAdded": "2025-12-21",
+    "dateUpdated": "2025-12-21"
+  },
+  {
+    "id": "3",
+    "name": "Almohadón Estampado Blanco y Negro",
+    "price": 12,
+    "status": "available",
+    "images": [
+      "https://pub-ad7b08f18499474e911b970060b5baa1.r2.dev/images/IMG_20250714_120350.jpg"
+    ],
+    "description": "Almohadón decorativo con patrón geométrico en blanco y negro. Diseño moderno y versátil, ideal para sillón, cama o rincón de lectura. Funda en excelente estado, cierre invisible.",
+    "category": "Decoración",
     "condition": "Usado - Excelente",
     "dimensions": {
       "height": 45,
-      "width": 20,
-      "depth": 15
+      "width": 30,
+      "depth": 10
     },
+    "dateAdded": "2025-12-21",
+    "dateUpdated": "2025-12-21"
+  },
+  {
+    "id": "4",
+    "name": "Libro Ilustrado \"Argentina Natural\" – Octavio Pintos",
+    "price": 20,
+    "status": "available",
+    "images": [
+      "https://pub-ad7b08f18499474e911b970060b5baa1.r2.dev/images/IMG_20250815_103706.jpg"
+    ],
+    "description": "Libro ilustrado que recorre la geografía, fauna y paisajes de Argentina con un enfoque visual y educativo. Ideal para amantes de la naturaleza, el diseño y la ilustración. Edición cuidada, en excelente estado.",
+    "category": "Libros",
+    "condition": "Usado - Excelente",
+    "dimensions": {
+      "height": 28,
+      "width": 22,
+      "depth": 2
+    },
+    "dateAdded": "2025-12-21",
+    "dateUpdated": "2025-12-21"
+  },
+  {
+    "id": "5",
+    "name": "Puzzle Ilustrado Enmarcado – 500 Piezas",
+    "price": 30,
+    "status": "available",
+    "images": [
+      "https://pub-ad7b08f18499474e911b970060b5baa1.r2.dev/images/IMG_20251120_123326.jpg"
+    ],
+    "description": "Puzzle ilustrado de 500 piezas, armado y enmarcado. Ilustración colorida y detallada, ideal como pieza decorativa. Incluye la caja original. Perfecto para sumar arte sin clavar cuadros nuevos.",
+    "category": "Arte",
+    "condition": "Usado - Excelente",
+    "dimensions": {
+      "height": 50,
+      "width": 40,
+      "depth": 2
+    },
+    "dateAdded": "2025-12-21",
+    "dateUpdated": "2025-12-21"
+  },
+  {
+    "id": "1",
+    "name": "Pack de Medias Adidas Originales (3 pares)",
+    "price": 12,
+    "status": "available",
+    "category": "Ropa",
+    "condition": "Nuevo con etiqueta",
+    "images": [
+      "https://pub-ad7b08f18499474e911b970060b5baa1.r2.dev/images/IMG_20251124_161722.jpg"
+    ],
+    "description": "Pack de 3 pares de medias Adidas originales en colores blanco, rosa y lila. Sin uso, con etiqueta. Ideales para uso diario o deportivo, algodón suave y cómodas.",
     "dateAdded": "2025-11-15",
     "dateUpdated": "2025-11-30"
   },
   {
     "id": "2",
-    "name": "Sillón de Lectura",
-    "price": 45,
-    "status": "reserved",
+    "name": "Vestido Negro Corto con Detalles Calados",
+    "price": 20,
+    "status": "available",
+    "category": "Ropa",
+    "condition": "Usado - Muy buen estado",
     "images": [
-      "https://pub-ad7b08f18499474e911b970060b5baa1.r2.dev/images/IMG_20251124_162633.jpg",
-      "https://pub-ad7b08f18499474e911b970060b5baa1.r2.dev/images/IMG_20251124_162839.jpg",
-      "https://pub-ad7b08f18499474e911b970060b5baa1.r2.dev/images/IMG_20251124_163328.jpg"
+      "https://pub-ad7b08f18499474e911b970060b5baa1.r2.dev/images/IMG_20251124_162536.jpg",
+      "https://pub-ad7b08f18499474e911b970060b5baa1.r2.dev/images/IMG_20251124_162633.jpg"
     ],
-    "description": "El lugar perfecto para domingos de lluvia. Tiene una mancha de café que cuenta una historia (y sale con vanish). Súper cómodo, tapizado en tela color beige.",
-    "category": "El living",
-    "condition": "Usado - Bueno",
-    "dimensions": {
-      "height": 90,
-      "width": 85,
-      "depth": 92
-    },
-    "dateAdded": "2025-11-10",
+    "description": "Vestido negro corto, liviano y cómodo, con detalles calados en mangas y cintura. Corte favorecedor, ideal para verano o media estación. Muy poco uso.",
+    "dateAdded": "2025-11-15",
     "dateUpdated": "2025-11-30"
   },
   {
     "id": "3",
-    "name": "Set de Macetas de Barro",
-    "price": 10,
+    "name": "Tapado Sintético Tipo Teddy Color Beige",
+    "price": 35,
     "status": "available",
+    "category": "Ropa",
+    "condition": "Usado - Excelente",
     "images": [
-      "https://pub-ad7b08f18499474e911b970060b5baa1.r2.dev/images/IMG_20251124_164509.jpg",
-      "https://pub-ad7b08f18499474e911b970060b5baa1.r2.dev/images/IMG_20251124_164543.jpg"
+      "https://pub-ad7b08f18499474e911b970060b5baa1.r2.dev/images/IMG_20251124_162839.jpg"
     ],
-    "description": "Mis intentos de jardinería. Las plantas no sobrevivieron, pero las macetas tienen mucha fe. Set de 4 macetas artesanales de diferentes tamaños con platos.",
-    "category": "Plantas y macetas",
-    "condition": "Como nuevo",
-    "dimensions": {
-      "height": 25,
-      "width": 22,
-      "depth": 22
-    },
-    "dateAdded": "2025-11-18",
+    "description": "Tapado abrigado tipo teddy en color beige rosado. Súper suave, cómodo y calentito. Ideal para invierno o días fríos. En excelente estado.",
+    "dateAdded": "2025-11-15",
     "dateUpdated": "2025-11-30"
   },
   {
     "id": "4",
-    "name": "Colección de Vinilos 80s",
-    "price": 30,
+    "name": "Pantalón Ancho Tiro Alto Color Camel",
+    "price": 18,
     "status": "available",
+    "category": "Ropa",
+    "condition": "Usado - Muy buen estado",
     "images": [
-      "https://pub-ad7b08f18499474e911b970060b5baa1.r2.dev/images/IMG_20251124_170015.jpg",
-      "https://pub-ad7b08f18499474e911b970060b5baa1.r2.dev/images/IMG_20251124_170217.jpg"
+      "https://pub-ad7b08f18499474e911b970060b5baa1.r2.dev/images/IMG_20251124_163328.jpg"
     ],
-    "description": "Heredados de un tío cool. No tengo tocadiscos, así que merecen sonar de nuevo. Incluye clásicos de The Cure, Depeche Mode, y New Order. 12 discos en total.",
-    "category": "Cultura",
-    "condition": "Usado - Excelente",
-    "dimensions": {
-      "height": 32,
-      "width": 32,
-      "depth": 15
-    },
-    "dateAdded": "2025-11-12",
+    "description": "Pantalón ancho, tiro alto, color camel con botones frontales. Tela liviana y caída recta. Muy cómodo y versátil, ideal para looks casuales o más arreglados.",
+    "dateAdded": "2025-11-15",
     "dateUpdated": "2025-11-30"
   },
   {
     "id": "5",
-    "name": "Cafetera Italiana",
+    "name": "Lámpara Decorativa Astronauta con Control",
+    "price": 25,
+    "status": "available",
+    "category": "Decoración",
+    "condition": "Usado - Excelente",
+    "images": [
+      "https://pub-ad7b08f18499474e911b970060b5baa1.r2.dev/images/IMG_20251124_164509.jpg"
+    ],
+    "description": "Lámpara decorativa con forma de astronauta. Incluye control remoto para cambiar modos de luz. Funciona por USB. Ideal para ambientar habitaciones o escritorios.",
+    "dateAdded": "2025-11-15",
+    "dateUpdated": "2025-11-30"
+  },
+  {
+    "id": "1",
+    "name": "Rompecabezas Aegean Sea – Santorini (1000 piezas)",
     "price": 12,
-    "status": "sold",
+    "status": "available",
+    "images": [
+      "https://pub-ad7b08f18499474e911b970060b5baa1.r2.dev/images/IMG_20251124_170015.jpg"
+    ],
+    "description": "Rompecabezas de 1000 piezas con una vista icónica del mar Egeo y las cúpulas azules de Santorini. Ideal para tardes tranquilas o para enmarcar una vez armado. Todas las piezas completas.",
+    "category": "Juegos & Ocio",
+    "condition": "Usado - Muy bueno",
+    "dimensions": {
+      "height": 70,
+      "width": 50,
+      "depth": 0.3
+    },
+    "dateAdded": "2025-11-24",
+    "dateUpdated": "2025-11-30"
+  },
+  {
+    "id": "2",
+    "name": "Campera Abrigada Bicolor con Capucha",
+    "price": 20,
+    "status": "available",
+    "images": [
+      "https://pub-ad7b08f18499474e911b970060b5baa1.r2.dev/images/IMG_20251124_170217.jpg"
+    ],
+    "description": "Campera acolchada en tonos beige y lila, con capucha y forro interno tipo corderito. Súper cómoda y abrigada, ideal para invierno urbano o escapadas de fin de semana. Cierre y costuras en excelente estado.",
+    "category": "Ropa",
+    "condition": "Usado - Excelente",
+    "dimensions": {
+      "height": 60,
+      "width": 52,
+      "depth": 8
+    },
+    "dateAdded": "2025-11-24",
+    "dateUpdated": "2025-11-30"
+  },
+  {
+    "id": "3",
+    "name": "Mat de Yoga / Ejercicio Diseño Marmolado",
+    "price": 10,
+    "status": "available",
     "images": [
       "https://pub-ad7b08f18499474e911b970060b5baa1.r2.dev/images/IMG_20251130_140641.jpg"
     ],
-    "description": "Hace el mejor café del mundo, pero me mudo con alguien que solo toma té (lo sé, raro). Bialetti de 6 tazas, aluminio clásico.",
-    "category": "Cocina",
-    "condition": "Usado - Bueno",
+    "description": "Mat de yoga o ejercicio con diseño marmolado en tonos rosados y lilas. Superficie antideslizante, ideal para yoga, stretching o ejercicios en casa. Fácil de enrollar y guardar.",
+    "category": "Deporte & Bienestar",
+    "condition": "Usado - Muy bueno",
     "dimensions": {
-      "height": 22,
-      "width": 11,
-      "depth": 11
+      "height": 180,
+      "width": 60,
+      "depth": 0.5
     },
-    "dateAdded": "2025-11-08",
+    "dateAdded": "2025-11-30",
     "dateUpdated": "2025-11-30"
   },
   {
-    "id": "6",
-    "name": "Espejo de Pie",
-    "price": 25,
+    "id": "4",
+    "name": "Porta Macetas de Macramé Artesanal (Par)",
+    "price": 15,
     "status": "available",
     "images": [
-      "https://pub-ad7b08f18499474e911b970060b5baa1.r2.dev/images/IMG_20250704_120626.jpg",
-      "https://pub-ad7b08f18499474e911b970060b5baa1.r2.dev/images/IMG_20250704_120930.jpg"
+      "https://pub-ad7b08f18499474e911b970060b5baa1.r2.dev/images/IMG-20251130-WA0004.jpg",
+      "https://pub-ad7b08f18499474e911b970060b5baa1.r2.dev/images/IMG-20251130-WA0005.jpg",
+      "https://pub-ad7b08f18499474e911b970060b5baa1.r2.dev/images/IMG_20251124_164543.jpg"
     ],
-    "description": "Te ves increíble en él. Comprobado científicamente. Marco de madera color natural, base ajustable.",
-    "category": "El living",
+    "description": "Par de porta macetas de macramé artesanal en algodón natural, con aro de madera. Estilo boho, ideales para colgar plantas y sumar calidez a cualquier ambiente. Se venden juntos.",
+    "category": "Decoración",
     "condition": "Usado - Excelente",
     "dimensions": {
-      "height": 160,
-      "width": 50,
-      "depth": 45
+      "height": 90,
+      "width": 15,
+      "depth": 15
     },
-    "dateAdded": "2025-11-14",
+    "dateAdded": "2025-11-24",
     "dateUpdated": "2025-11-30"
-  },
-  {
-    "id": "7",
-    "name": "Caja Misteriosa",
-    "price": 5,
-    "status": "available",
-    "images": [
-      "https://pub-ad7b08f18499474e911b970060b5baa1.r2.dev/images/IMG_20250714_120350.jpg"
-    ],
-    "description": "Cosas útiles random. Puede contener: cables que siempre faltan, libretas sin usar, o tesoros perdidos. Es una sorpresa incluso para mí.",
-    "category": "Regalos sorpresa",
-    "condition": "Usado - Normal",
-    "dimensions": {
-      "height": 30,
-      "width": 40,
-      "depth": 30
-    },
-    "dateAdded": "2025-11-20",
-    "dateUpdated": "2025-11-20"
-  },
-  {
-    "id": "8",
-    "name": "Libro: Cien Años de Soledad",
-    "price": 0,
-    "status": "available",
-    "images": [
-      "https://pub-ad7b08f18499474e911b970060b5baa1.r2.dev/images/IMG_20250815_103706.jpg",
-      "https://pub-ad7b08f18499474e911b970060b5baa1.r2.dev/images/IMG_20251120_123326.jpg"
-    ],
-    "description": "Gratis para quien prometa leerlo. Una joya que debe circular. Edición de bolsillo en español, en excelente estado.",
-    "category": "Cultura",
-    "condition": "Usado - Excelente",
-    "dimensions": {
-      "height": 19,
-      "width": 12,
-      "depth": 3
-    },
-    "dateAdded": "2025-11-22",
-    "dateUpdated": "2025-11-22"
   }
 ]
