@@ -35,7 +35,7 @@ const ProductDetail = ({ product, onClose }) => {
     const handleWhatsAppClick = () => {
         if (isSold) return;
 
-        const message = `Hola! Vi ${product.name} en tu venta de garage. ¿Sigue disponible? Me interesa 🙌`;
+        const message = `Hola Fiona! 👋 Vi "${product.name}" en tu garage sale y me encantó. ¿Sigue disponible? ✨`;
         const encodedMessage = encodeURIComponent(message);
         window.open(`https://wa.me/${WHATSAPP_NUMBER}?text=${encodedMessage}`, '_blank');
     };
