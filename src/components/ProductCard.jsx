@@ -50,7 +50,7 @@ const ProductCard = ({ product, onClick }) => {
                 <div className="product-header">
                     <h3 className="product-name">{product.name}</h3>
                     <span className="product-price">
-                        {product.price === 0 ? 'GRATIS' : `€${product.price}`}
+                        {product.price === 0 ? 'GRATIS' : `$${product.price.toLocaleString('es-AR')}`}
                     </span>
                 </div>
                 <p className="product-category">{product.category}</p>

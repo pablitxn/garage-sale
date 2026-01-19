@@ -328,6 +328,41 @@
     box-shadow: none;
 }
 
+.modal-instagram-btn {
+    width: 100%;
+    padding: 1rem;
+    font-weight: bold;
+    font-size: 1rem;
+    border: 2px solid var(--color-border);
+    border-radius: 10px;
+    background: linear-gradient(45deg, #f09433, #e6683c, #dc2743, #cc2366, #bc1888);
+    color: #fff;
+    cursor: pointer;
+    transition: transform 0.16s ease, box-shadow 0.16s ease, opacity 0.16s ease;
+    box-shadow: 3px 3px 0 var(--shadow-color-strong);
+    text-decoration: none;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    gap: 0.5rem;
+    grid-column: span 2;
+}
+
+.modal-instagram-btn:hover {
+    transform: translate(-2px, -2px);
+    box-shadow: 5px 5px 0 var(--shadow-color-strong);
+    opacity: 0.95;
+}
+
+.modal-instagram-btn:active {
+    transform: translate(0, 0);
+    box-shadow: 0 0 0 var(--shadow-color-strong);
+}
+
+.modal-instagram-btn svg {
+    flex-shrink: 0;
+}
+
 .modal-share-btn {
     width: 100%;
     padding: 0.95rem;
@@ -489,6 +524,11 @@
     .modal-share-btn {
         display: none;
         /* Hide share button on mobile to save space, or move it */
+    }
+
+    .modal-instagram-btn {
+        grid-column: span 1;
+        margin-bottom: 0.5rem;
     }
 
     .gallery-btn {

@@ -11,7 +11,7 @@ const Header = () => {
                         <h1 className="site-title">Venta de Garage de Fiona</h1>
                         <ThemeToggle />
                     </div>
-                    <p className="site-subtitle">Mudanza a París 🇫🇷</p>
+                    <p className="site-subtitle">Mudanza a París <span role="img" aria-label="Francia">🇫🇷</span></p>
                 </div>
             </div>
         </header>

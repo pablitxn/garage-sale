@@ -39,14 +39,14 @@
   },
   {
     "id": "3",
-    "name": "Almohadón Estampado Blanco y Negro",
+    "name": "Almohadón de Meditación Safu",
     "price": 20400,
     "status": "available",
     "images": [
       "https://pub-ad7b08f18499474e911b970060b5baa1.r2.dev/images/IMG_20250714_120350.jpg"
     ],
-    "description": "Almohadón decorativo con patrón geométrico en blanco y negro. Diseño moderno y versátil, ideal para sillón, cama o rincón de lectura. Funda en excelente estado, cierre invisible.",
-    "category": "Decoración",
+    "description": "Almohadón de meditación Safu con patrón geométrico en blanco y negro. Ideal para prácticas de meditación, yoga o como asiento cómodo en el suelo. Funda en excelente estado, cierre invisible.",
+    "category": "Bienestar",
     "condition": "Usado - Excelente",
     "dimensions": {
       "height": 45,
@@ -125,15 +125,15 @@
   },
   {
     "id": "8",
-    "name": "Tapado Sintético Tipo Teddy Color Beige",
+    "name": "Tapado Sintético Tipo Teddy Color Rosa",
     "price": 59500,
     "status": "available",
     "category": "Ropa",
-    "condition": "Usado - Excelente",
+    "condition": "Usado - Buen estado",
     "images": [
       "https://pub-ad7b08f18499474e911b970060b5baa1.r2.dev/images/IMG_20251124_162839.jpg"
     ],
-    "description": "Tapado abrigado tipo teddy en color beige rosado. Súper suave, cómodo y calentito. Ideal para invierno o días fríos. En excelente estado.",
+    "description": "Tapado abrigado tipo teddy en color rosa. Súper suave, cómodo y calentito. Ideal para invierno o días fríos.",
     "dateAdded": "2025-11-15",
     "dateUpdated": "2025-11-30"
   },
@@ -170,7 +170,8 @@
     "price": 20400,
     "status": "available",
     "images": [
-      "https://pub-ad7b08f18499474e911b970060b5baa1.r2.dev/images/IMG_20251124_170015.jpg"
+      "https://pub-ad7b08f18499474e911b970060b5baa1.r2.dev/images/IMG_20251124_170015.jpg",
+      "https://pub-ad7b08f18499474e911b970060b5baa1.r2.dev/images/WhatsApp%20Image%202026-01-18%20at%2021.31.05.jpeg"
     ],
     "description": "Rompecabezas de 1000 piezas con una vista icónica del mar Egeo y las cúpulas azules de Santorini. Ideal para tardes tranquilas o para enmarcar una vez armado. Todas las piezas completas.",
     "category": "Juegos & Ocio",
@@ -262,25 +263,6 @@
     "dateUpdated": "2026-01-18"
   },
   {
-    "id": "16",
-    "name": "Campera Acolchada Negra Liviana con Capucha",
-    "price": 76500,
-    "status": "available",
-    "images": [
-      "https://pub-ad7b08f18499474e911b970060b5baa1.r2.dev/images/WhatsApp%20Image%202026-01-18%20at%2017.40.36%20(2).jpeg"
-    ],
-    "description": "Campera acolchada liviana de color negro, con cierre frontal y capucha integrada. Diseño entallado, cómoda y versátil, ideal para media estación o climas frescos. Fácil de combinar y práctica para uso urbano o viajes. Se encuentra en muy buen estado, sin roturas ni detalles visibles.",
-    "category": "Indumentaria",
-    "condition": "Usado",
-    "dimensions": {
-      "height": 60,
-      "width": 48,
-      "depth": 5
-    },
-    "dateAdded": "2026-01-18",
-    "dateUpdated": "2026-01-18"
-  },
-  {
     "id": "17",
     "name": "Espejo Decorativo de Mimbre Estilo Sol",
     "price": 64600,
@@ -291,7 +273,7 @@
     ],
     "description": "Espejo decorativo con marco de mimbre natural en forma de sol. Diseño artesanal, liviano y cálido, ideal para decorar livings, dormitorios o espacios boho y naturales. Se encuentra en excelente estado, sin rajaduras ni desprendimientos. Aporta textura y personalidad a cualquier ambiente.",
     "category": "Decoración",
-    "condition": "Usado",
+    "condition": "Usado - Excelente",
     "dimensions": {
       "height": 60,
       "width": 60,
@@ -306,15 +288,38 @@
     "price": 68000,
     "status": "available",
     "images": [
-      "https://pub-ad7b08f18499474e911b970060b5baa1.r2.dev/images/WhatsApp%20Image%202026-01-18%20at%2017.40.37.jpeg"
+      "https://pub-ad7b08f18499474e911b970060b5baa1.r2.dev/images/WhatsApp%20Image%202026-01-18%20at%2017.40.37.jpeg",
+      "https://pub-ad7b08f18499474e911b970060b5baa1.r2.dev/images/WhatsApp%20Image%202026-01-18%20at%2017.40.36%20(2).jpeg"
+
     ],
-    "description": "Campera liviana compactable que se guarda dentro de su propia bolsa. Ideal para viajes, mochilas o actividades al aire libre. Ocupa muy poco espacio y es fácil de transportar. Material suave y liviano, pensada como abrigo práctico para cambios de clima. Se encuentra en muy buen estado.",
+    "description": "Campera liviana compactable que se guarda dentro de su propia bolsa. Ideal para viajes, mochilas o actividades al aire libre. Ocupa muy poco espacio y es fácil de transportar. Material suave y liviano, pensada como abrigo práctico para cambios de clima.",
     "category": "Indumentaria",
-    "condition": "Usado",
+    "condition": "Usado - Buen estado",
     "dimensions": {
       "height": 18,
       "width": 25,
       "depth": 10
+    },
+    "dateAdded": "2026-01-18",
+    "dateUpdated": "2026-01-18"
+  },
+  {
+    "id": "13",
+    "name": "Pack Sorpresa de 4 Jabones Artesanales Naturales",
+    "price": 37400,
+    "status": "available",
+    "images": [
+      "https://pub-ad7b08f18499474e911b970060b5baa1.r2.dev/images/WhatsApp%20Image%202026-01-18%20at%2021.25.27%20(1).jpeg",
+      "https://pub-ad7b08f18499474e911b970060b5baa1.r2.dev/images/WhatsApp%20Image%202026-01-18%20at%2021.25.27.jpeg",
+      "https://pub-ad7b08f18499474e911b970060b5baa1.r2.dev/images/WhatsApp%20Image%202026-01-18%20at%2021.23.50.jpeg"
+      ],
+    "description": "Pack sorpresa de 4 jabones artesanales elaborados a mano. La selección se realiza de forma aleatoria entre distintos colores, texturas y aromas, por lo que cada pack es único. Ideales para uso diario, para regalar o para sumar a un ritual de cuidado personal. Están sin uso y conservados en excelente estado. Si te interesa ver más variedades o comprar otros jabones, podés encontrar más opciones en Instagram: @la.lune.decroissante.",
+    "category": "Cuidado Personal",
+    "condition": "Nuevo",
+    "dimensions": {
+      "height": 8,
+      "width": 5,
+      "depth": 3
     },
     "dateAdded": "2026-01-18",
     "dateUpdated": "2026-01-18"
