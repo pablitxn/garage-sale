@@ -19,9 +19,19 @@ const Footer = () => {
                             Si viste algo que te gustó, escribinos para coordinar.
                         </p>
 
-                        <button onClick={handleWhatsAppClick} className="whatsapp-button">
-                            Coordinar por WhatsApp
-                        </button>
+                        <div className="footer-buttons">
+                            <button onClick={handleWhatsAppClick} className="whatsapp-button">
+                                Coordinar por WhatsApp
+                            </button>
+                            <a
+                                href="https://instagram.com/la.lune.decroissante"
+                                target="_blank"
+                                rel="noopener noreferrer"
+                                className="instagram-button"
+                            >
+                                Seguinos en Instagram
+                            </a>
+                        </div>
 
                         <div className="footer-disclaimer">
                             <p>📍 Se retira por el domicilio. <strong>No hacemos envíos.</strong></p>

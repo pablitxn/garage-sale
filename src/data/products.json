@@ -2,7 +2,7 @@
   {
     "id": "1",
     "name": "Set de Frascos de Vidrio con Tapa Metálica",
-    "price": 18,
+    "price": 30600,
     "status": "available",
     "images": [
       "https://pub-ad7b08f18499474e911b970060b5baa1.r2.dev/images/IMG_20250704_120626.jpg"
@@ -21,7 +21,7 @@
   {
     "id": "2",
     "name": "Alfombra Tejida Artesanal Clara",
-    "price": 25,
+    "price": 42500,
     "status": "available",
     "images": [
       "https://pub-ad7b08f18499474e911b970060b5baa1.r2.dev/images/IMG_20250704_120930.jpg"
@@ -40,7 +40,7 @@
   {
     "id": "3",
     "name": "Almohadón Estampado Blanco y Negro",
-    "price": 12,
+    "price": 20400,
     "status": "available",
     "images": [
       "https://pub-ad7b08f18499474e911b970060b5baa1.r2.dev/images/IMG_20250714_120350.jpg"
@@ -59,7 +59,7 @@
   {
     "id": "4",
     "name": "Libro Ilustrado \"Argentina Natural\" – Octavio Pintos",
-    "price": 20,
+    "price": 34000,
     "status": "available",
     "images": [
       "https://pub-ad7b08f18499474e911b970060b5baa1.r2.dev/images/IMG_20250815_103706.jpg"
@@ -78,7 +78,7 @@
   {
     "id": "5",
     "name": "Puzzle Ilustrado Enmarcado – 500 Piezas",
-    "price": 30,
+    "price": 51000,
     "status": "available",
     "images": [
       "https://pub-ad7b08f18499474e911b970060b5baa1.r2.dev/images/IMG_20251120_123326.jpg"
@@ -97,7 +97,7 @@
   {
     "id": "6",
     "name": "Pack de Medias Adidas Originales (3 pares)",
-    "price": 12,
+    "price": 20400,
     "status": "available",
     "category": "Ropa",
     "condition": "Nuevo con etiqueta",
@@ -111,7 +111,7 @@
   {
     "id": "7",
     "name": "Vestido Negro Corto con Detalles Calados",
-    "price": 20,
+    "price": 34000,
     "status": "available",
     "category": "Ropa",
     "condition": "Usado - Muy buen estado",
@@ -126,7 +126,7 @@
   {
     "id": "8",
     "name": "Tapado Sintético Tipo Teddy Color Beige",
-    "price": 35,
+    "price": 59500,
     "status": "available",
     "category": "Ropa",
     "condition": "Usado - Excelente",
@@ -140,7 +140,7 @@
   {
     "id": "9",
     "name": "Pantalón Ancho Tiro Alto Color Camel",
-    "price": 18,
+    "price": 30600,
     "status": "available",
     "category": "Ropa",
     "condition": "Usado - Muy buen estado",
@@ -151,10 +151,9 @@
     "dateAdded": "2025-11-15",
     "dateUpdated": "2025-11-30"
   },
-  {
-    "id": "10",
+  {    "id": "10",
     "name": "Lámpara Decorativa Astronauta con Control",
-    "price": 25,
+    "price": 42500,
     "status": "available",
     "category": "Decoración",
     "condition": "Usado - Excelente",
@@ -168,7 +167,7 @@
   {
     "id": "11",
     "name": "Rompecabezas Aegean Sea – Santorini (1000 piezas)",
-    "price": 12,
+    "price": 20400,
     "status": "available",
     "images": [
       "https://pub-ad7b08f18499474e911b970060b5baa1.r2.dev/images/IMG_20251124_170015.jpg"
@@ -187,7 +186,7 @@
   {
     "id": "12",
     "name": "Campera Abrigada Bicolor con Capucha",
-    "price": 20,
+    "price": 34000,
     "status": "available",
     "images": [
       "https://pub-ad7b08f18499474e911b970060b5baa1.r2.dev/images/IMG_20251124_170217.jpg"
@@ -206,7 +205,7 @@
   {
     "id": "13",
     "name": "Mat de Yoga / Ejercicio Diseño Marmolado",
-    "price": 10,
+    "price": 17000,
     "status": "available",
     "images": [
       "https://pub-ad7b08f18499474e911b970060b5baa1.r2.dev/images/IMG_20251130_140641.jpg"
@@ -225,7 +224,7 @@
   {
     "id": "14",
     "name": "Porta Macetas de Macramé Artesanal (Par)",
-    "price": 15,
+    "price": 25500,
     "status": "available",
     "images": [
       "https://pub-ad7b08f18499474e911b970060b5baa1.r2.dev/images/IMG_20251124_164543.jpg",
@@ -242,5 +241,83 @@
     },
     "dateAdded": "2025-11-24",
     "dateUpdated": "2025-11-30"
+  },
+  {
+    "id": "15",
+    "name": "Riñonera Acolchada Rosa con Cierres Metálicos",
+    "price": 20400,
+    "status": "available",
+    "images": [
+      "https://pub-ad7b08f18499474e911b970060b5baa1.r2.dev/images/WhatsApp%20Image%202026-01-18%20at%2017.40.36%20(1).jpeg"
+    ],
+    "description": "Riñonera acolchada color rosa con diseño matelaseado y múltiples compartimentos con cierres metálicos. Cuenta con correa regulable para usar en la cintura o cruzada. Liviana, práctica y cómoda para llevar lo esencial en salidas diarias, viajes o paseos. Se encuentra sin uso, con etiqueta original.",
+    "category": "Accesorios",
+    "condition": "Nuevo",
+    "dimensions": {
+      "height": 15,
+      "width": 25,
+      "depth": 7
+    },
+    "dateAdded": "2026-01-18",
+    "dateUpdated": "2026-01-18"
+  },
+  {
+    "id": "16",
+    "name": "Campera Acolchada Negra Liviana con Capucha",
+    "price": 76500,
+    "status": "available",
+    "images": [
+      "https://pub-ad7b08f18499474e911b970060b5baa1.r2.dev/images/WhatsApp%20Image%202026-01-18%20at%2017.40.36%20(2).jpeg"
+    ],
+    "description": "Campera acolchada liviana de color negro, con cierre frontal y capucha integrada. Diseño entallado, cómoda y versátil, ideal para media estación o climas frescos. Fácil de combinar y práctica para uso urbano o viajes. Se encuentra en muy buen estado, sin roturas ni detalles visibles.",
+    "category": "Indumentaria",
+    "condition": "Usado",
+    "dimensions": {
+      "height": 60,
+      "width": 48,
+      "depth": 5
+    },
+    "dateAdded": "2026-01-18",
+    "dateUpdated": "2026-01-18"
+  },
+  {
+    "id": "17",
+    "name": "Espejo Decorativo de Mimbre Estilo Sol",
+    "price": 64600,
+    "status": "available",
+    "images": [
+      "https://pub-ad7b08f18499474e911b970060b5baa1.r2.dev/images/WhatsApp%20Image%202026-01-18%20at%2017.40.36.jpeg",
+      "https://pub-ad7b08f18499474e911b970060b5baa1.r2.dev/images/WhatsApp%20Image%202026-01-18%20at%2017.40.37%20(1).jpeg"
+    ],
+    "description": "Espejo decorativo con marco de mimbre natural en forma de sol. Diseño artesanal, liviano y cálido, ideal para decorar livings, dormitorios o espacios boho y naturales. Se encuentra en excelente estado, sin rajaduras ni desprendimientos. Aporta textura y personalidad a cualquier ambiente.",
+    "category": "Decoración",
+    "condition": "Usado",
+    "dimensions": {
+      "height": 60,
+      "width": 60,
+      "depth": 3
+    },
+    "dateAdded": "2026-01-18",
+    "dateUpdated": "2026-01-18"
+  },
+  {
+    "id": "18",
+    "name": "Campera Liviana Compactable con Bolsa",
+    "price": 68000,
+    "status": "available",
+    "images": [
+      "https://pub-ad7b08f18499474e911b970060b5baa1.r2.dev/images/WhatsApp%20Image%202026-01-18%20at%2017.40.37.jpeg"
+    ],
+    "description": "Campera liviana compactable que se guarda dentro de su propia bolsa. Ideal para viajes, mochilas o actividades al aire libre. Ocupa muy poco espacio y es fácil de transportar. Material suave y liviano, pensada como abrigo práctico para cambios de clima. Se encuentra en muy buen estado.",
+    "category": "Indumentaria",
+    "condition": "Usado",
+    "dimensions": {
+      "height": 18,
+      "width": 25,
+      "depth": 10
+    },
+    "dateAdded": "2026-01-18",
+    "dateUpdated": "2026-01-18"
   }
+
 ]
