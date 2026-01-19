@@ -4,7 +4,7 @@ import './Footer.css';
 
 const Footer = () => {
     const handleWhatsAppClick = () => {
-        const message = 'Hola! Vi tu venta de garage y me interesa consultar sobre algunos productos 🙌';
+        const message = 'Hola! Vi tu venta de garage y me interesa consultar sobre algunos productos';
         const encodedMessage = encodeURIComponent(message);
         window.open(`https://wa.me/${WHATSAPP_NUMBER}?text=${encodedMessage}`, '_blank');
     };
