@@ -2,7 +2,7 @@
   {
     "id": "1",
     "name": "Set de Frascos de Vidrio con Tapa Metálica",
-    "price": 30600,
+    "price": 20000,
     "status": "available",
     "images": [
       "https://pub-ad7b08f18499474e911b970060b5baa1.r2.dev/images/IMG_20250704_120626.jpg"
@@ -21,7 +21,7 @@
   {
     "id": "2",
     "name": "Alfombra Tejida Artesanal Clara",
-    "price": 42500,
+    "price": 20000,
     "status": "available",
     "images": [
       "https://pub-ad7b08f18499474e911b970060b5baa1.r2.dev/images/IMG_20250704_120930.jpg"
@@ -40,7 +40,7 @@
   {
     "id": "3",
     "name": "Almohadón de Meditación Safu",
-    "price": 20400,
+    "price": 35000,
     "status": "available",
     "images": [
       "https://pub-ad7b08f18499474e911b970060b5baa1.r2.dev/images/IMG_20250714_120350.jpg"
@@ -59,7 +59,7 @@
   {
     "id": "4",
     "name": "Libro Ilustrado \"Argentina Natural\" – Octavio Pintos",
-    "price": 34000,
+    "price": 20000,
     "status": "available",
     "images": [
       "https://pub-ad7b08f18499474e911b970060b5baa1.r2.dev/images/IMG_20250815_103706.jpg"
@@ -77,13 +77,14 @@
   },
   {
     "id": "5",
-    "name": "Puzzle Ilustrado Enmarcado – 500 Piezas",
+    "name": "Pack de 2 Puzzles Ilustrados – 500 Piezas c/u (uno enmarcado)",
     "price": 51000,
     "status": "available",
     "images": [
-      "https://pub-ad7b08f18499474e911b970060b5baa1.r2.dev/images/IMG_20251120_123326.jpg"
+      "https://pub-ad7b08f18499474e911b970060b5baa1.r2.dev/images/IMG_20251120_123326.jpg",
+      "https://pub-ad7b08f18499474e911b970060b5baa1.r2.dev/images/WhatsApp%20Image%202026-01-18%20at%2021.31.05.jpeg"
     ],
-    "description": "Puzzle ilustrado de 500 piezas, armado y enmarcado. Ilustración colorida y detallada, ideal como pieza decorativa. Incluye la caja original. Perfecto para sumar arte sin clavar cuadros nuevos.",
+    "description": "Pack de 2 puzzles ilustrados de 500 piezas cada uno, con diseños diferentes. Uno de ellos está armado y enmarcado, listo para colgar. Ilustraciones coloridas y detalladas, ideales como piezas decorativas. Incluyen las cajas originales. Perfectos para sumar arte sin clavar cuadros nuevos.",
     "category": "Arte",
     "condition": "Usado - Excelente",
     "dimensions": {
@@ -97,7 +98,7 @@
   {
     "id": "6",
     "name": "Pack de Medias Adidas Originales (3 pares)",
-    "price": 20400,
+    "price": 20000,
     "status": "available",
     "category": "Ropa",
     "condition": "Nuevo con etiqueta",
@@ -111,7 +112,7 @@
   {
     "id": "7",
     "name": "Vestido Negro Corto con Detalles Calados",
-    "price": 34000,
+    "price": 15000,
     "status": "available",
     "category": "Ropa",
     "condition": "Usado - Muy buen estado",
@@ -126,7 +127,7 @@
   {
     "id": "8",
     "name": "Tapado Sintético Tipo Teddy Color Rosa",
-    "price": 59500,
+    "price": 60000,
     "status": "available",
     "category": "Ropa",
     "condition": "Usado - Buen estado",
@@ -140,7 +141,7 @@
   {
     "id": "9",
     "name": "Pantalón Ancho Tiro Alto Color Camel",
-    "price": 30600,
+    "price": 20000,
     "status": "available",
     "category": "Ropa",
     "condition": "Usado - Muy buen estado",
@@ -153,7 +154,7 @@
   },
   {    "id": "10",
     "name": "Lámpara Decorativa Astronauta con Control",
-    "price": 42500,
+    "price": 20000,
     "status": "available",
     "category": "Decoración",
     "condition": "Usado - Excelente",
@@ -167,11 +168,10 @@
   {
     "id": "11",
     "name": "Rompecabezas Aegean Sea – Santorini (1000 piezas)",
-    "price": 20400,
+    "price": 15000,
     "status": "available",
     "images": [
-      "https://pub-ad7b08f18499474e911b970060b5baa1.r2.dev/images/IMG_20251124_170015.jpg",
-      "https://pub-ad7b08f18499474e911b970060b5baa1.r2.dev/images/WhatsApp%20Image%202026-01-18%20at%2021.31.05.jpeg"
+      "https://pub-ad7b08f18499474e911b970060b5baa1.r2.dev/images/IMG_20251124_170015.jpg"
     ],
     "description": "Rompecabezas de 1000 piezas con una vista icónica del mar Egeo y las cúpulas azules de Santorini. Ideal para tardes tranquilas o para enmarcar una vez armado. Todas las piezas completas.",
     "category": "Juegos & Ocio",
@@ -187,7 +187,7 @@
   {
     "id": "12",
     "name": "Campera Abrigada Bicolor con Capucha",
-    "price": 34000,
+    "price": 50000,
     "status": "available",
     "images": [
       "https://pub-ad7b08f18499474e911b970060b5baa1.r2.dev/images/IMG_20251124_170217.jpg"
@@ -206,7 +206,7 @@
   {
     "id": "13",
     "name": "Mat de Yoga / Ejercicio Diseño Marmolado",
-    "price": 17000,
+    "price": 80000,
     "status": "available",
     "images": [
       "https://pub-ad7b08f18499474e911b970060b5baa1.r2.dev/images/IMG_20251130_140641.jpg"
@@ -225,7 +225,7 @@
   {
     "id": "14",
     "name": "Porta Macetas de Macramé Artesanal (Par)",
-    "price": 25500,
+    "price": 20000,
     "status": "available",
     "images": [
       "https://pub-ad7b08f18499474e911b970060b5baa1.r2.dev/images/IMG_20251124_164543.jpg",
@@ -246,7 +246,7 @@
   {
     "id": "15",
     "name": "Riñonera Acolchada Rosa con Cierres Metálicos",
-    "price": 20400,
+    "price": 8000,
     "status": "available",
     "images": [
       "https://pub-ad7b08f18499474e911b970060b5baa1.r2.dev/images/WhatsApp%20Image%202026-01-18%20at%2017.40.36%20(1).jpeg"
@@ -265,7 +265,7 @@
   {
     "id": "17",
     "name": "Espejo Decorativo de Mimbre Estilo Sol",
-    "price": 64600,
+    "price": 30000,
     "status": "available",
     "images": [
       "https://pub-ad7b08f18499474e911b970060b5baa1.r2.dev/images/WhatsApp%20Image%202026-01-18%20at%2017.40.36.jpeg",
@@ -285,7 +285,7 @@
   {
     "id": "18",
     "name": "Campera Liviana Compactable con Bolsa",
-    "price": 68000,
+    "price": 30000,
     "status": "available",
     "images": [
       "https://pub-ad7b08f18499474e911b970060b5baa1.r2.dev/images/WhatsApp%20Image%202026-01-18%20at%2017.40.36%20(2).jpeg",
@@ -308,7 +308,7 @@
   {
     "id": "13",
     "name": "Pack Sorpresa de 4 Jabones Artesanales Naturales",
-    "price": 37400,
+    "price": 15000,
     "status": "available",
     "images": [
       "https://pub-ad7b08f18499474e911b970060b5baa1.r2.dev/images/WhatsApp%20Image%202026-01-18%20at%2021.25.27%20(1).jpeg",
