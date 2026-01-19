@@ -1,7 +1,7 @@
 export const buildSharePayload = (product) => {
-    const priceLabel = product.price === 0 ? 'gratis' : `€${product.price}`;
+    const priceLabel = product.price === 0 ? 'gratis' : `$${product.price}`;
     const baseUrl = `${window.location.origin}${window.location.pathname}`;
-    const anchor = `#producto-${product.id}`;
+    const anchor = `#${product.slug}`;
     const url = `${baseUrl}${anchor}`;
 
     const text = `Mirá "${product.name}" (${priceLabel}) de mi venta de garage.`;

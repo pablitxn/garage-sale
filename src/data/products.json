@@ -1,6 +1,7 @@
 [
   {
     "id": "1",
+    "slug": "set-frascos-vidrio-tapa-metalica",
     "name": "Set de Frascos de Vidrio con Tapa Metálica",
     "price": 20000,
     "status": "available",
@@ -20,6 +21,7 @@
   },
   {
     "id": "2",
+    "slug": "alfombra-tejida-artesanal-clara",
     "name": "Alfombra Tejida Artesanal Clara",
     "price": 20000,
     "status": "available",
@@ -39,6 +41,7 @@
   },
   {
     "id": "3",
+    "slug": "almohadon-meditacion-safu",
     "name": "Almohadón de Meditación Safu",
     "price": 35000,
     "status": "available",
@@ -58,6 +61,7 @@
   },
   {
     "id": "4",
+    "slug": "libro-ilustrado-argentina-natural-octavio-pintos",
     "name": "Libro Ilustrado \"Argentina Natural\" – Octavio Pintos",
     "price": 20000,
     "status": "available",
@@ -77,6 +81,7 @@
   },
   {
     "id": "5",
+    "slug": "pack-2-puzzles-ilustrados-500-piezas",
     "name": "Pack de 2 Puzzles Ilustrados – 500 Piezas c/u (uno enmarcado)",
     "price": 30000,
     "status": "available",
@@ -97,6 +102,7 @@
   },
   {
     "id": "6",
+    "slug": "pack-medias-adidas-originales-3-pares",
     "name": "Pack de Medias Adidas Originales (3 pares)",
     "price": 20000,
     "status": "available",
@@ -111,6 +117,7 @@
   },
   {
     "id": "7",
+    "slug": "vestido-negro-corto-detalles-calados",
     "name": "Vestido Negro Corto con Detalles Calados",
     "price": 15000,
     "status": "available",
@@ -126,6 +133,7 @@
   },
   {
     "id": "8",
+    "slug": "tapado-sintetico-teddy-rosa",
     "name": "Tapado Sintético Tipo Teddy Color Rosa",
     "price": 60000,
     "status": "available",
@@ -140,6 +148,7 @@
   },
   {
     "id": "9",
+    "slug": "pantalon-ancho-tiro-alto-camel",
     "name": "Pantalón Ancho Tiro Alto Color Camel",
     "price": 20000,
     "status": "available",
@@ -152,7 +161,9 @@
     "dateAdded": "2025-11-15",
     "dateUpdated": "2025-11-30"
   },
-  {    "id": "10",
+  {
+    "id": "10",
+    "slug": "lampara-decorativa-astronauta-control",
     "name": "Lámpara Decorativa Astronauta con Control",
     "price": 20000,
     "status": "available",
@@ -167,6 +178,7 @@
   },
   {
     "id": "11",
+    "slug": "rompecabezas-aegean-sea-santorini-1000-piezas",
     "name": "Rompecabezas Aegean Sea – Santorini (1000 piezas)",
     "price": 15000,
     "status": "available",
@@ -186,6 +198,7 @@
   },
   {
     "id": "12",
+    "slug": "campera-abrigada-bicolor-capucha",
     "name": "Campera Abrigada Bicolor con Capucha",
     "price": 50000,
     "status": "available",
@@ -205,6 +218,7 @@
   },
   {
     "id": "13",
+    "slug": "mat-yoga-ejercicio-marmolado",
     "name": "Mat de Yoga / Ejercicio Diseño Marmolado",
     "price": 80000,
     "status": "available",
@@ -224,6 +238,7 @@
   },
   {
     "id": "14",
+    "slug": "porta-macetas-macrame-artesanal-par",
     "name": "Porta Macetas de Macramé Artesanal (Par)",
     "price": 20000,
     "status": "available",
@@ -245,6 +260,7 @@
   },
   {
     "id": "15",
+    "slug": "rinonera-acolchada-rosa-cierres-metalicos",
     "name": "Riñonera Acolchada Rosa con Cierres Metálicos",
     "price": 8000,
     "status": "available",
@@ -264,6 +280,7 @@
   },
   {
     "id": "17",
+    "slug": "espejo-decorativo-mimbre-sol",
     "name": "Espejo Decorativo de Mimbre Estilo Sol",
     "price": 30000,
     "status": "available",
@@ -284,6 +301,7 @@
   },
   {
     "id": "18",
+    "slug": "campera-liviana-compactable-bolsa",
     "name": "Campera Liviana Compactable con Bolsa",
     "price": 35000,
     "status": "available",
@@ -306,7 +324,8 @@
     "dateUpdated": "2026-01-18"
   },
   {
-    "id": "13",
+    "id": "19",
+    "slug": "pack-sorpresa-4-jabones-artesanales-naturales",
     "name": "Pack Sorpresa de 4 Jabones Artesanales Naturales",
     "price": 20000,
     "status": "available",
@@ -314,7 +333,7 @@
       "https://pub-ad7b08f18499474e911b970060b5baa1.r2.dev/images/WhatsApp%20Image%202026-01-18%20at%2021.25.27%20(1).jpeg",
       "https://pub-ad7b08f18499474e911b970060b5baa1.r2.dev/images/WhatsApp%20Image%202026-01-18%20at%2021.25.27.jpeg",
       "https://pub-ad7b08f18499474e911b970060b5baa1.r2.dev/images/WhatsApp%20Image%202026-01-18%20at%2021.23.50.jpeg"
-      ],
+    ],
     "description": "Pack sorpresa de 4 jabones artesanales elaborados a mano. La selección se realiza de forma aleatoria entre distintos colores, texturas y aromas, por lo que cada pack es único. Ideales para uso diario, para regalar o para sumar a un ritual de cuidado personal. Están sin uso y conservados en excelente estado. Si te interesa ver más variedades o comprar otros jabones, podés encontrar más opciones en Instagram: @la.lune.decroissante.",
     "category": "Cuidado Personal",
     "condition": "Nuevo",
@@ -326,5 +345,4 @@
     "dateAdded": "2026-01-18",
     "dateUpdated": "2026-01-18"
   }
-
 ]

@@ -10,9 +10,26 @@ import './App.css';
 function App() {
   const [selectedProduct, setSelectedProduct] = useState(null);
 
+  // Detectar hash al cargar y abrir el producto correspondiente
+  useEffect(() => {
+    const hash = window.location.hash.slice(1); // Remover el #
+    if (hash) {
+      const product = productsData.find((p) => p.slug === hash);
+      if (product) {
+        setSelectedProduct(product);
+      }
+    }
+  }, []);
+
   useEffect(() => {
     const handlePopState = () => {
-      setSelectedProduct((prev) => (prev ? null : prev));
+      const hash = window.location.hash.slice(1);
+      if (hash) {
+        const product = productsData.find((p) => p.slug === hash);
+        setSelectedProduct(product || null);
+      } else {
+        setSelectedProduct(null);
+      }
     };
 
     window.addEventListener('popstate', handlePopState);
@@ -22,26 +39,18 @@ function App() {
     };
   }, []);
 
-  useEffect(() => {
-    if (selectedProduct) {
-      window.history.pushState(
-        { modal: 'product', productId: selectedProduct.id },
-        '',
-        window.location.href,
-      );
-    }
-  }, [selectedProduct]);
-
   const handleProductClick = (product) => {
     setSelectedProduct(product);
+    window.history.pushState(
+      { modal: 'product', slug: product.slug },
+      '',
+      `#${product.slug}`,
+    );
   };
 
   const handleCloseDetail = () => {
-    if (window.history.state?.modal === 'product') {
-      window.history.back();
-    } else {
-      setSelectedProduct(null);
-    }
+    setSelectedProduct(null);
+    window.history.pushState(null, '', window.location.pathname);
   };
 
   return (
