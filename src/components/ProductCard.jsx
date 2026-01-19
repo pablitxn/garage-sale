@@ -8,6 +8,7 @@ const ProductCard = ({ product, onClick }) => {
     const images = product.images || [];
     const mainImage = images[0] || product.image; // Fallback to single image if exists
     const isShareDisabled = isSold || isReserved;
+    const mainImageRotation = product.imageRotations?.['0'] || 0;
 
     const getButtonText = () => {
         if (isSold) return 'Ya encontró hogar 🏠';
@@ -34,6 +35,7 @@ const ProductCard = ({ product, onClick }) => {
                     className="product-image"
                     loading="lazy"
                     decoding="async"
+                    style={mainImageRotation ? { transform: `rotate(${mainImageRotation}deg)` } : undefined}
                 />
                 {product.status !== 'available' && (
                     <div className="status-badge">

@@ -288,10 +288,12 @@
     "price": 68000,
     "status": "available",
     "images": [
-      "https://pub-ad7b08f18499474e911b970060b5baa1.r2.dev/images/WhatsApp%20Image%202026-01-18%20at%2017.40.37.jpeg",
-      "https://pub-ad7b08f18499474e911b970060b5baa1.r2.dev/images/WhatsApp%20Image%202026-01-18%20at%2017.40.36%20(2).jpeg"
-
+      "https://pub-ad7b08f18499474e911b970060b5baa1.r2.dev/images/WhatsApp%20Image%202026-01-18%20at%2017.40.36%20(2).jpeg",
+      "https://pub-ad7b08f18499474e911b970060b5baa1.r2.dev/images/WhatsApp%20Image%202026-01-18%20at%2017.40.37.jpeg"
     ],
+    "imageRotations": {
+      "0": 180
+    },
     "description": "Campera liviana compactable que se guarda dentro de su propia bolsa. Ideal para viajes, mochilas o actividades al aire libre. Ocupa muy poco espacio y es fácil de transportar. Material suave y liviano, pensada como abrigo práctico para cambios de clima.",
     "category": "Indumentaria",
     "condition": "Usado - Buen estado",

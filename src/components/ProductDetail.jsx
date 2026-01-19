@@ -19,6 +19,7 @@ const ProductDetail = ({ product, onClose }) => {
     const isSold = product.status === 'sold';
     const isShareDisabled = isSold || product.status === 'reserved';
     const images = product.images || [];
+    const currentImageRotation = product.imageRotations?.[String(currentImageIndex)] || 0;
 
     const handlePrevImage = () => {
         setCurrentImageIndex((prev) =>
@@ -80,6 +81,7 @@ const ProductDetail = ({ product, onClose }) => {
                                     className="modal-image"
                                     loading="lazy"
                                     decoding="async"
+                                    style={currentImageRotation ? { transform: `rotate(${currentImageRotation}deg)` } : undefined}
                                 />
                                 {images.length > 1 && (
                                     <>
