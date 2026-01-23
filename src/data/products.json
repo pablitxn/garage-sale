@@ -132,6 +132,27 @@
     "dateUpdated": "2025-11-30"
   },
   {
+    "id": "19",
+    "slug": "pack-canastos-artesanales-junco-natural",
+    "name": "Pack de Canastos Artesanales de Junco Natural",
+    "price": 20000,
+    "status": "available",
+    "images": [
+      "https://pub-ad7b08f18499474e911b970060b5baa1.r2.dev/images/WhatsApp%20Image%202026-01-23%20at%2011.35.44%20(1).jpeg",
+      "https://pub-ad7b08f18499474e911b970060b5baa1.r2.dev/images/WhatsApp%20Image%202026-01-23%20at%2011.35.44%20(2).jpeg"
+    ],
+    "description": "Pack de canastos tejidos a mano con junco natural. Incluye canastos de distintos tamaños, ideales para organizar baño, maquillaje, llaves, escritorio o cualquier rincón que pida un poco de orden sin perder calidez. Son livianos pero firmes, con trama artesanal visible y un color natural que queda bien en cualquier ambiente. Pueden tener pequeñas variaciones propias del trabajo manual. Están en excelente estado.",
+    "category": "Hogar y Organización",
+    "condition": "Muy buen estado",
+    "dimensions": {
+      "height": 20,
+      "width": 25,
+      "depth": 25
+    },
+    "dateAdded": "2026-01-23",
+    "dateUpdated": "2026-01-23"
+  },
+  {
     "id": "8",
     "slug": "tapado-sintetico-teddy-rosa",
     "name": "Tapado Sintético Tipo Teddy Color Rosa",
@@ -257,6 +278,27 @@
     },
     "dateAdded": "2025-11-24",
     "dateUpdated": "2025-11-30"
+  },
+  {
+    "id": "20",
+    "slug": "kit-pantene-biotina-b3-cuidado-capilar",
+    "name": "Kit Pantene Biotina B3 – Cuidado Capilar",
+    "price": 20000,
+    "status": "available",
+    "images": [
+      "https://pub-ad7b08f18499474e911b970060b5baa1.r2.dev/images/WhatsApp%20Image%202026-01-23%20at%2011.35.44.jpeg",
+      "https://pub-ad7b08f18499474e911b970060b5baa1.r2.dev/images/WhatsApp%20Image%202026-01-23%20at%2011.35.45.jpeg"
+    ],
+    "description": "Kit de productos Pantene Biotina B3 para el cuidado del cabello. Incluye shampoo, acondicionador y tratamientos. Todo está nuevo, sin uso y en su caja original. Es una línea pensada para fortalecer el pelo y dejarlo más suave y manejable. Ideal si querés reponer productos o probar la línea completa sin pagar precio de góndola.",
+    "category": "Cuidado Personal",
+    "condition": "Nuevo",
+    "dimensions": {
+      "height": 22,
+      "width": 18,
+      "depth": 8
+    },
+    "dateAdded": "2026-01-23",
+    "dateUpdated": "2026-01-23"
   },
   {
     "id": "15",
