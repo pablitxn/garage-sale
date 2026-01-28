@@ -1,121 +1,5 @@
 [
   {
-    "id": "1",
-    "slug": "set-frascos-vidrio-tapa-metalica",
-    "name": "Set de Frascos de Vidrio con Tapa Metálica",
-    "price": 20000,
-    "status": "sold",
-    "images": [
-      "https://pub-ad7b08f18499474e911b970060b5baa1.r2.dev/images/IMG_20250704_120626.jpg"
-    ],
-    "description": "Set de frascos de vidrio transparentes con tapa metálica a rosca. Ideales para especias, té, café, semillas o pequeños objetos. Están sin uso, aún en su caja original. Diseño simple y funcional, fáciles de integrar en cualquier cocina.",
-    "category": "Hogar",
-    "condition": "Nuevo",
-    "dimensions": {
-      "height": 9,
-      "width": 8,
-      "depth": 8
-    },
-    "dateAdded": "2025-12-21",
-    "dateUpdated": "2025-12-21"
-  },
-  {
-    "id": "2",
-    "slug": "alfombra-tejida-artesanal-clara",
-    "name": "Alfombra Tejida Artesanal Clara",
-    "price": 20000,
-    "status": "available",
-    "images": [
-      "https://pub-ad7b08f18499474e911b970060b5baa1.r2.dev/images/IMG_20250704_120930.jpg"
-    ],
-    "description": "Alfombra tejida en tonos claros, de textura suave y flecos laterales. Ideal para pasillos, dormitorios o al pie de la cama. Aporta calidez y un look natural sin recargar el espacio.",
-    "category": "Decoración",
-    "condition": "Usado - Muy buen estado",
-    "dimensions": {
-      "height": 140,
-      "width": 60,
-      "depth": 1
-    },
-    "dateAdded": "2025-12-21",
-    "dateUpdated": "2025-12-21"
-  },
-  {
-    "id": "3",
-    "slug": "almohadon-meditacion-safu",
-    "name": "Almohadón de Meditación Safu",
-    "price": 35000,
-    "status": "available",
-    "images": [
-      "https://pub-ad7b08f18499474e911b970060b5baa1.r2.dev/images/IMG_20250714_120350.jpg"
-    ],
-    "description": "Almohadón de meditación Safu con patrón geométrico en blanco y negro. Ideal para prácticas de meditación, yoga o como asiento cómodo en el suelo. Funda en excelente estado, cierre invisible.",
-    "category": "Bienestar",
-    "condition": "Usado - Excelente",
-    "dimensions": {
-      "height": 45,
-      "width": 30,
-      "depth": 10
-    },
-    "dateAdded": "2025-12-21",
-    "dateUpdated": "2025-12-21"
-  },
-  {
-    "id": "4",
-    "slug": "libro-ilustrado-argentina-natural-octavio-pintos",
-    "name": "Libro Ilustrado \"Argentina Natural\" – Octavio Pintos",
-    "price": 20000,
-    "status": "available",
-    "images": [
-      "https://pub-ad7b08f18499474e911b970060b5baa1.r2.dev/images/IMG_20250815_103706.jpg"
-    ],
-    "description": "Libro ilustrado que recorre la geografía, fauna y paisajes de Argentina con un enfoque visual y educativo. Ideal para amantes de la naturaleza, el diseño y la ilustración. Edición cuidada, en excelente estado.",
-    "category": "Libros",
-    "condition": "Usado - Excelente",
-    "dimensions": {
-      "height": 28,
-      "width": 22,
-      "depth": 2
-    },
-    "dateAdded": "2025-12-21",
-    "dateUpdated": "2025-12-21"
-  },
-  {
-    "id": "5",
-    "slug": "pack-2-puzzles-ilustrados-500-piezas",
-    "name": "Pack de 2 Puzzles Ilustrados – 500 Piezas c/u (uno enmarcado)",
-    "price": 30000,
-    "status": "available",
-    "images": [
-      "https://pub-ad7b08f18499474e911b970060b5baa1.r2.dev/images/IMG_20251120_123326.jpg",
-      "https://pub-ad7b08f18499474e911b970060b5baa1.r2.dev/images/WhatsApp%20Image%202026-01-18%20at%2021.31.05.jpeg"
-    ],
-    "description": "Pack de 2 puzzles ilustrados de 500 piezas cada uno, con diseños diferentes. Uno de ellos está armado y enmarcado, listo para colgar. Ilustraciones coloridas y detalladas, ideales como piezas decorativas. Incluyen las cajas originales. Perfectos para sumar arte sin clavar cuadros nuevos.",
-    "category": "Arte",
-    "condition": "Usado - Excelente",
-    "dimensions": {
-      "height": 50,
-      "width": 40,
-      "depth": 2
-    },
-    "dateAdded": "2025-12-21",
-    "dateUpdated": "2025-12-21"
-  },
-  {
-    "id": "6",
-    "slug": "pack-medias-adidas-originales-3-pares",
-    "name": "Pack de Medias Adidas Originales (3 pares)",
-    "price": 20000,
-    "status": "available",
-    "category": "Ropa",
-    "condition": "Nuevo con etiqueta",
-    "images": [
-      "https://pub-ad7b08f18499474e911b970060b5baa1.r2.dev/images/IMG_20251124_161722.jpg"
-    ],
-    "description": "Pack de 3 pares de medias Adidas originales en colores blanco, rosa y lila. Sin uso, con etiqueta. Ideales para uso diario o deportivo, algodón suave y cómodas.",
-    "dateAdded": "2025-11-15",
-    "dateUpdated": "2025-11-30"
-  },
-  {
     "id": "7",
     "slug": "vestido-negro-corto-detalles-calados",
     "name": "Vestido Negro Corto con Detalles Calados",
@@ -130,27 +14,6 @@
     "description": "Vestido negro corto, liviano y cómodo, con detalles calados en mangas y cintura. Corte favorecedor, ideal para verano o media estación. Muy poco uso.",
     "dateAdded": "2025-11-15",
     "dateUpdated": "2025-11-30"
-  },
-  {
-    "id": "19",
-    "slug": "pack-canastos-artesanales-junco-natural",
-    "name": "Pack de Canastos Artesanales de Junco Natural",
-    "price": 20000,
-    "status": "sold",
-    "images": [
-      "https://pub-ad7b08f18499474e911b970060b5baa1.r2.dev/images/WhatsApp%20Image%202026-01-23%20at%2011.35.44%20(1).jpeg",
-      "https://pub-ad7b08f18499474e911b970060b5baa1.r2.dev/images/WhatsApp%20Image%202026-01-23%20at%2011.35.44%20(2).jpeg"
-    ],
-    "description": "Pack de canastos tejidos a mano con junco natural. Incluye canastos de distintos tamaños, ideales para organizar baño, maquillaje, llaves, escritorio o cualquier rincón que pida un poco de orden sin perder calidez. Son livianos pero firmes, con trama artesanal visible y un color natural que queda bien en cualquier ambiente. Pueden tener pequeñas variaciones propias del trabajo manual. Están en excelente estado.",
-    "category": "Hogar y Organización",
-    "condition": "Muy buen estado",
-    "dimensions": {
-      "height": 20,
-      "width": 25,
-      "depth": 25
-    },
-    "dateAdded": "2026-01-23",
-    "dateUpdated": "2026-01-23"
   },
   {
     "id": "8",
@@ -183,6 +46,26 @@
     "dateUpdated": "2025-11-30"
   },
   {
+    "id": "19",
+    "slug": "pack-guias-viaje-chile-routard-lonely-planet",
+    "name": "Pack de Guías de Viaje – Chile (Routard) + La Bible du Grand Voyageur (Lonely Planet)",
+    "price": 30000,
+    "status": "available",
+    "images": [
+      "https://pub-ad7b08f18499474e911b970060b5baa1.r2.dev/images/WhatsApp%20Image%202026-01-28%20at%2019.47.39.jpeg"
+    ],
+    "description": "Pack de dos libros de viaje en excelente estado: la guía “Chili – Île de Pâques” (Le Routard 2025–2026) y “La Bible du Grand Voyageur” (Lonely Planet).",
+    "category": "Libros",
+    "condition": "Usado - Excelente",
+    "dimensions": {
+      "height": 21,
+      "width": 13,
+      "depth": 4
+    },
+    "dateAdded": "2026-01-28",
+    "dateUpdated": "2026-01-28"
+  },
+  {
     "id": "10",
     "slug": "lampara-decorativa-astronauta-control",
     "name": "Lámpara Decorativa Astronauta con Control",
@@ -195,26 +78,6 @@
     ],
     "description": "Lámpara decorativa con forma de astronauta. Incluye control remoto para cambiar modos de luz. Funciona por USB. Ideal para ambientar habitaciones o escritorios.",
     "dateAdded": "2025-11-15",
-    "dateUpdated": "2025-11-30"
-  },
-  {
-    "id": "11",
-    "slug": "rompecabezas-aegean-sea-santorini-1000-piezas",
-    "name": "Rompecabezas Aegean Sea – Santorini (1000 piezas)",
-    "price": 15000,
-    "status": "sold",
-    "images": [
-      "https://pub-ad7b08f18499474e911b970060b5baa1.r2.dev/images/IMG_20251124_170015.jpg"
-    ],
-    "description": "Rompecabezas de 1000 piezas con una vista icónica del mar Egeo y las cúpulas azules de Santorini. Ideal para tardes tranquilas o para enmarcar una vez armado. Todas las piezas completas.",
-    "category": "Juegos & Ocio",
-    "condition": "Usado - Muy bueno",
-    "dimensions": {
-      "height": 70,
-      "width": 50,
-      "depth": 0.3
-    },
-    "dateAdded": "2025-11-24",
     "dateUpdated": "2025-11-30"
   },
   {
@@ -321,27 +184,6 @@
     "dateUpdated": "2026-01-18"
   },
   {
-    "id": "17",
-    "slug": "espejo-decorativo-mimbre-sol",
-    "name": "Espejo Decorativo de Mimbre Estilo Sol",
-    "price": 30000,
-    "status": "available",
-    "images": [
-      "https://pub-ad7b08f18499474e911b970060b5baa1.r2.dev/images/WhatsApp%20Image%202026-01-18%20at%2017.40.36.jpeg",
-      "https://pub-ad7b08f18499474e911b970060b5baa1.r2.dev/images/WhatsApp%20Image%202026-01-18%20at%2017.40.37%20(1).jpeg"
-    ],
-    "description": "Espejo decorativo con marco de mimbre natural en forma de sol. Diseño artesanal, liviano y cálido, ideal para decorar livings, dormitorios o espacios boho y naturales. Se encuentra en excelente estado, sin rajaduras ni desprendimientos. Aporta textura y personalidad a cualquier ambiente.",
-    "category": "Decoración",
-    "condition": "Usado - Excelente",
-    "dimensions": {
-      "height": 60,
-      "width": 60,
-      "depth": 3
-    },
-    "dateAdded": "2026-01-18",
-    "dateUpdated": "2026-01-18"
-  },
-  {
     "id": "18",
     "slug": "campera-liviana-compactable-bolsa",
     "name": "Campera Liviana Compactable con Bolsa",
@@ -366,7 +208,7 @@
     "dateUpdated": "2026-01-18"
   },
   {
-    "id": "19",
+    "id": "21",
     "slug": "pack-sorpresa-4-jabones-artesanales-naturales",
     "name": "Pack Sorpresa de 4 Jabones Artesanales Naturales",
     "price": 20000,
@@ -382,6 +224,184 @@
     "dimensions": {
       "height": 8,
       "width": 5,
+      "depth": 3
+    },
+    "dateAdded": "2026-01-18",
+    "dateUpdated": "2026-01-18"
+  },
+  {
+    "id": "1",
+    "slug": "set-frascos-vidrio-tapa-metalica",
+    "name": "Set de Frascos de Vidrio con Tapa Metálica",
+    "price": 20000,
+    "status": "sold",
+    "images": [
+      "https://pub-ad7b08f18499474e911b970060b5baa1.r2.dev/images/IMG_20250704_120626.jpg"
+    ],
+    "description": "Set de frascos de vidrio transparentes con tapa metálica a rosca. Ideales para especias, té, café, semillas o pequeños objetos. Están sin uso, aún en su caja original. Diseño simple y funcional, fáciles de integrar en cualquier cocina.",
+    "category": "Hogar",
+    "condition": "Nuevo",
+    "dimensions": {
+      "height": 9,
+      "width": 8,
+      "depth": 8
+    },
+    "dateAdded": "2025-12-21",
+    "dateUpdated": "2025-12-21"
+  },
+  {
+    "id": "2",
+    "slug": "alfombra-tejida-artesanal-clara",
+    "name": "Alfombra Tejida Artesanal Clara",
+    "price": 20000,
+    "status": "sold",
+    "images": [
+      "https://pub-ad7b08f18499474e911b970060b5baa1.r2.dev/images/IMG_20250704_120930.jpg"
+    ],
+    "description": "Alfombra tejida en tonos claros, de textura suave y flecos laterales. Ideal para pasillos, dormitorios o al pie de la cama. Aporta calidez y un look natural sin recargar el espacio.",
+    "category": "Decoración",
+    "condition": "Usado - Muy buen estado",
+    "dimensions": {
+      "height": 140,
+      "width": 60,
+      "depth": 1
+    },
+    "dateAdded": "2025-12-21",
+    "dateUpdated": "2025-12-21"
+  },
+  {
+    "id": "3",
+    "slug": "almohadon-meditacion-safu",
+    "name": "Almohadón de Meditación Safu",
+    "price": 35000,
+    "status": "sold",
+    "images": [
+      "https://pub-ad7b08f18499474e911b970060b5baa1.r2.dev/images/IMG_20250714_120350.jpg"
+    ],
+    "description": "Almohadón de meditación Safu con patrón geométrico en blanco y negro. Ideal para prácticas de meditación, yoga o como asiento cómodo en el suelo. Funda en excelente estado, cierre invisible.",
+    "category": "Bienestar",
+    "condition": "Usado - Excelente",
+    "dimensions": {
+      "height": 45,
+      "width": 30,
+      "depth": 10
+    },
+    "dateAdded": "2025-12-21",
+    "dateUpdated": "2025-12-21"
+  },
+  {
+    "id": "4",
+    "slug": "libro-ilustrado-argentina-natural-octavio-pintos",
+    "name": "Libro Ilustrado \"Argentina Natural\" – Octavio Pintos",
+    "price": 20000,
+    "status": "sold",
+    "images": [
+      "https://pub-ad7b08f18499474e911b970060b5baa1.r2.dev/images/IMG_20250815_103706.jpg"
+    ],
+    "description": "Libro ilustrado que recorre la geografía, fauna y paisajes de Argentina con un enfoque visual y educativo. Ideal para amantes de la naturaleza, el diseño y la ilustración. Edición cuidada, en excelente estado.",
+    "category": "Libros",
+    "condition": "Usado - Excelente",
+    "dimensions": {
+      "height": 28,
+      "width": 22,
+      "depth": 2
+    },
+    "dateAdded": "2025-12-21",
+    "dateUpdated": "2025-12-21"
+  },
+  {
+    "id": "5",
+    "slug": "pack-2-puzzles-ilustrados-500-piezas",
+    "name": "Pack de 2 Puzzles Ilustrados – 500 Piezas c/u (uno enmarcado)",
+    "price": 30000,
+    "status": "sold",
+    "images": [
+      "https://pub-ad7b08f18499474e911b970060b5baa1.r2.dev/images/IMG_20251120_123326.jpg",
+      "https://pub-ad7b08f18499474e911b970060b5baa1.r2.dev/images/WhatsApp%20Image%202026-01-18%20at%2021.31.05.jpeg"
+    ],
+    "description": "Pack de 2 puzzles ilustrados de 500 piezas cada uno, con diseños diferentes. Uno de ellos está armado y enmarcado, listo para colgar. Ilustraciones coloridas y detalladas, ideales como piezas decorativas. Incluyen las cajas originales. Perfectos para sumar arte sin clavar cuadros nuevos.",
+    "category": "Arte",
+    "condition": "Usado - Excelente",
+    "dimensions": {
+      "height": 50,
+      "width": 40,
+      "depth": 2
+    },
+    "dateAdded": "2025-12-21",
+    "dateUpdated": "2025-12-21"
+  },
+  {
+    "id": "6",
+    "slug": "pack-medias-adidas-originales-3-pares",
+    "name": "Pack de Medias Adidas Originales (3 pares)",
+    "price": 20000,
+    "status": "sold",
+    "category": "Ropa",
+    "condition": "Nuevo con etiqueta",
+    "images": [
+      "https://pub-ad7b08f18499474e911b970060b5baa1.r2.dev/images/IMG_20251124_161722.jpg"
+    ],
+    "description": "Pack de 3 pares de medias Adidas originales en colores blanco, rosa y lila. Sin uso, con etiqueta. Ideales para uso diario o deportivo, algodón suave y cómodas.",
+    "dateAdded": "2025-11-15",
+    "dateUpdated": "2025-11-30"
+  },
+  {
+    "id": "16",
+    "slug": "pack-canastos-artesanales-junco-natural",
+    "name": "Pack de Canastos Artesanales de Junco Natural",
+    "price": 20000,
+    "status": "sold",
+    "images": [
+      "https://pub-ad7b08f18499474e911b970060b5baa1.r2.dev/images/WhatsApp%20Image%202026-01-23%20at%2011.35.44%20(1).jpeg",
+      "https://pub-ad7b08f18499474e911b970060b5baa1.r2.dev/images/WhatsApp%20Image%202026-01-23%20at%2011.35.44%20(2).jpeg"
+    ],
+    "description": "Pack de canastos tejidos a mano con junco natural. Incluye canastos de distintos tamaños, ideales para organizar baño, maquillaje, llaves, escritorio o cualquier rincón que pida un poco de orden sin perder calidez. Son livianos pero firmes, con trama artesanal visible y un color natural que queda bien en cualquier ambiente. Pueden tener pequeñas variaciones propias del trabajo manual. Están en excelente estado.",
+    "category": "Hogar y Organización",
+    "condition": "Muy buen estado",
+    "dimensions": {
+      "height": 20,
+      "width": 25,
+      "depth": 25
+    },
+    "dateAdded": "2026-01-23",
+    "dateUpdated": "2026-01-23"
+  },
+  {
+    "id": "11",
+    "slug": "rompecabezas-aegean-sea-santorini-1000-piezas",
+    "name": "Rompecabezas Aegean Sea – Santorini (1000 piezas)",
+    "price": 15000,
+    "status": "sold",
+    "images": [
+      "https://pub-ad7b08f18499474e911b970060b5baa1.r2.dev/images/IMG_20251124_170015.jpg"
+    ],
+    "description": "Rompecabezas de 1000 piezas con una vista icónica del mar Egeo y las cúpulas azules de Santorini. Ideal para tardes tranquilas o para enmarcar una vez armado. Todas las piezas completas.",
+    "category": "Juegos & Ocio",
+    "condition": "Usado - Muy bueno",
+    "dimensions": {
+      "height": 70,
+      "width": 50,
+      "depth": 0.3
+    },
+    "dateAdded": "2025-11-24",
+    "dateUpdated": "2025-11-30"
+  },
+  {
+    "id": "17",
+    "slug": "espejo-decorativo-mimbre-sol",
+    "name": "Espejo Decorativo de Mimbre Estilo Sol",
+    "price": 30000,
+    "status": "sold",
+    "images": [
+      "https://pub-ad7b08f18499474e911b970060b5baa1.r2.dev/images/WhatsApp%20Image%202026-01-18%20at%2017.40.36.jpeg",
+      "https://pub-ad7b08f18499474e911b970060b5baa1.r2.dev/images/WhatsApp%20Image%202026-01-18%20at%2017.40.37%20(1).jpeg"
+    ],
+    "description": "Espejo decorativo con marco de mimbre natural en forma de sol. Diseño artesanal, liviano y cálido, ideal para decorar livings, dormitorios o espacios boho y naturales. Se encuentra en excelente estado, sin rajaduras ni desprendimientos. Aporta textura y personalidad a cualquier ambiente.",
+    "category": "Decoración",
+    "condition": "Usado - Excelente",
+    "dimensions": {
+      "height": 60,
+      "width": 60,
       "depth": 3
     },
     "dateAdded": "2026-01-18",
