@@ -77,6 +77,23 @@
     "dateUpdated": "2026-02-02"
   },
   {
+    "id": "25",
+    "slug": "carrito-organizador-3-niveles-verde",
+    "name": "Carrito Organizador de 3 Niveles Verde",
+    "price": 50000,
+    "status": "available",
+    "category": "Hogar",
+    "condition": "Usado - Muy buen estado",
+    "images": [
+      "https://pub-ad7b08f18499474e911b970060b5baa1.r2.dev/images/carrito_1.jpeg",
+      "https://pub-ad7b08f18499474e911b970060b5baa1.r2.dev/images/carrito_2.jpeg"
+    ],
+    "description": "Carrito organizador de plástico resistente, color verde, con tres niveles y ruedas. Muy práctico para escritorio, cocina, baño o guardado general. Liviano, estable y fácil de mover.",
+    "dateAdded": "2026-02-02",
+    "dateUpdated": "2026-02-02"
+  },
+
+  {
     "id": "223",
     "slug": "sandalias-goma-rosadas",
     "name": "Sandalias Havaianas de Goma Rosadas - Talle 40 ARG",
