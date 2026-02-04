@@ -1,21 +1,5 @@
 [
   {
-    "id": "256",
-    "slug": "escalon-madera-pino-dos-niveles",
-    "name": "Escalón de Madera de Pino con Dos Niveles",
-    "price": 100000,
-    "status": "available",
-    "category": "Hogar",
-    "condition": "Usado - Muy buen estado",
-    "images": [
-      "https://pub-ad7b08f18499474e911b970060b5baa1.r2.dev/images/escalera1.jpeg",
-      "https://pub-ad7b08f18499474e911b970060b5baa1.r2.dev/images/escalera2.jpeg"
-    ],
-    "description": "Escalón de madera de pino natural con dos niveles. Muy práctico para alcanzar estantes altos, como banco auxiliar o como soporte decorativo para plantas. Estructura sólida y estable, con acabado natural que muestra las vetas de la madera. Ideal para baño, cocina o cualquier espacio del hogar.",
-    "dateAdded": "2026-02-04",
-    "dateUpdated": "2026-02-04"
-  },
-  {
     "id": "7",
     "slug": "vestido-negro-corto-detalles-calados",
     "name": "Vestido Negro Corto con Detalles Calados",
@@ -93,6 +77,22 @@
     "dateUpdated": "2026-02-02"
   },
   {
+    "id": "256",
+    "slug": "escalon-madera-pino-dos-niveles",
+    "name": "Escalón de Madera de Pino con Dos Niveles",
+    "price": 100000,
+    "status": "available",
+    "category": "Hogar",
+    "condition": "Usado - Muy buen estado",
+    "images": [
+      "https://pub-ad7b08f18499474e911b970060b5baa1.r2.dev/images/escalera1.jpeg",
+      "https://pub-ad7b08f18499474e911b970060b5baa1.r2.dev/images/escalera2.jpeg"
+    ],
+    "description": "Escalón de madera de pino natural con dos niveles. Muy práctico para alcanzar estantes altos, como banco auxiliar o como soporte decorativo para plantas. Estructura sólida y estable, con acabado natural que muestra las vetas de la madera. Ideal para baño, cocina o cualquier espacio del hogar.",
+    "dateAdded": "2026-02-04",
+    "dateUpdated": "2026-02-04"
+  },
+  {
     "id": "25",
     "slug": "carrito-organizador-3-niveles-verde",
     "name": "Carrito Organizador de 3 Niveles Verde",
@@ -150,6 +150,21 @@
       "https://pub-ad7b08f18499474e911b970060b5baa1.r2.dev/images/cargador.jpeg"
     ],
     "description": "Kit de carga para iPhone 13 Pro Max. Incluye adaptador de corriente USB-C de 20W y cable USB-C a Lightning. Carga rápida y eficiente, compatible con todos los modelos de iPhone con puerto Lightning. En perfecto estado de funcionamiento.",
+    "dateAdded": "2026-02-04",
+    "dateUpdated": "2026-02-04"
+  },
+  {
+    "id": "246",
+    "slug": "lampara-rustica-base-madera-2-ampolletas-e27",
+    "name": "Lámpara Rústica con Base de Madera + 2 focos E27",
+    "price": 30000,
+    "status": "available",
+    "category": "Decoración",
+    "condition": "Usado - Muy buen estado",
+    "images": [
+      "https://pub-ad7b08f18499474e911b970060b5baa1.r2.dev/images/lampara.jpeg"
+    ],
+    "description": "Lámpara de mesa con base de madera natural estilo rústico/industrial. Incluye 2 ampolletas E27: una tipo globo con filamentos LED y una estilo Edison vintage. Cable blanco con interruptor de paso y enchufe europeo. Ideal para ambientar escritorios, mesas de luz o rincones de lectura con un toque cálido y artesanal.",
     "dateAdded": "2026-02-04",
     "dateUpdated": "2026-02-04"
   },
