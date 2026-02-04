@@ -1,5 +1,18 @@
 [
   {
+    "id": "256",
+    "slug": "cargador-iphone-13-pro-max-20w-usb-c",
+    "name": "Cargador iPhone 13 Pro Max – Adaptador 20W USB-C + Cable Lightning",
+    "price": 10000,
+    "status": "available",
+    "category": "Electrónica",
+    "condition": "Usado - Muy buen estado",
+    "images": [],
+    "description": "Kit de carga para iPhone 13 Pro Max. Incluye adaptador de corriente USB-C de 20W y cable USB-C a Lightning. Carga rápida y eficiente, compatible con todos los modelos de iPhone con puerto Lightning. En perfecto estado de funcionamiento.",
+    "dateAdded": "2026-02-04",
+    "dateUpdated": "2026-02-04"
+  },
+  {
     "id": "7",
     "slug": "vestido-negro-corto-detalles-calados",
     "name": "Vestido Negro Corto con Detalles Calados",
