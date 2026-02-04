@@ -7,7 +7,9 @@
     "status": "available",
     "category": "Electrónica",
     "condition": "Usado - Muy buen estado",
-    "images": [],
+    "images": [
+      "https://pub-ad7b08f18499474e911b970060b5baa1.r2.dev/images/cargador.jpeg"
+    ],
     "description": "Kit de carga para iPhone 13 Pro Max. Incluye adaptador de corriente USB-C de 20W y cable USB-C a Lightning. Carga rápida y eficiente, compatible con todos los modelos de iPhone con puerto Lightning. En perfecto estado de funcionamiento.",
     "dateAdded": "2026-02-04",
     "dateUpdated": "2026-02-04"
