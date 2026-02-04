@@ -1,5 +1,21 @@
 [
   {
+    "id": "256",
+    "slug": "escalon-madera-pino-dos-niveles",
+    "name": "Escalón de Madera de Pino con Dos Niveles",
+    "price": 100000,
+    "status": "available",
+    "category": "Hogar",
+    "condition": "Usado - Muy buen estado",
+    "images": [
+      "https://pub-ad7b08f18499474e911b970060b5baa1.r2.dev/images/escalera1.jpeg",
+      "https://pub-ad7b08f18499474e911b970060b5baa1.r2.dev/images/escalera2.jpeg"
+    ],
+    "description": "Escalón de madera de pino natural con dos niveles. Muy práctico para alcanzar estantes altos, como banco auxiliar o como soporte decorativo para plantas. Estructura sólida y estable, con acabado natural que muestra las vetas de la madera. Ideal para baño, cocina o cualquier espacio del hogar.",
+    "dateAdded": "2026-02-04",
+    "dateUpdated": "2026-02-04"
+  },
+  {
     "id": "7",
     "slug": "vestido-negro-corto-detalles-calados",
     "name": "Vestido Negro Corto con Detalles Calados",
