@@ -97,7 +97,7 @@
     "slug": "carrito-organizador-3-niveles-verde",
     "name": "Carrito Organizador de 3 Niveles Verde",
     "price": 50000,
-    "status": "available",
+    "status": "reserved",
     "category": "Hogar",
     "condition": "Usado - Muy buen estado",
     "images": [
@@ -167,6 +167,22 @@
     "description": "Lámpara de mesa con base de madera natural estilo rústico/industrial. Incluye 2 ampolletas E27: una tipo globo con filamentos LED y una estilo Edison vintage. Cable blanco con interruptor de paso y enchufe europeo. Ideal para ambientar escritorios, mesas de luz o rincones de lectura con un toque cálido y artesanal.",
     "dateAdded": "2026-02-04",
     "dateUpdated": "2026-02-04"
+  },
+  {
+    "id": "247",
+    "slug": "yogurtera-electrica-severin-7-frascos",
+    "name": "Yogurtera Eléctrica Severin con 7 Frascos",
+    "price": 15000,
+    "status": "available",
+    "category": "Electrodomésticos",
+    "condition": "Usado - Buen estado",
+    "images": [
+      "https://pub-ad7b08f18499474e911b970060b5baa1.r2.dev/images/yogurtera_1.jpeg",
+      "https://pub-ad7b08f18499474e911b970060b5baa1.r2.dev/images/yogurtera_2.jpeg"
+    ],
+    "description": "Yogurtera eléctrica marca Severin (Made in Germany). Incluye sus 7 frascos originales de vidrio con tapa. Funciona perfectamente. Tiene una pequeña rotura en un lateral del plástico exterior, que no afecta en absoluto su uso ni funcionamiento. Ideal para preparar yogur casero de forma simple y constante.",
+    "dateAdded": "2026-02-06",
+    "dateUpdated": "2026-02-06"
   },
   {
     "id": "245",
