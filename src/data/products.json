@@ -16,21 +16,6 @@
     "dateUpdated": "2025-11-30"
   },
   {
-    "id": "8",
-    "slug": "tapado-sintetico-teddy-rosa",
-    "name": "Tapado Sintético Tipo Teddy Color Rosa",
-    "price": 60000,
-    "status": "sold",
-    "category": "Ropa",
-    "condition": "Usado - Buen estado",
-    "images": [
-      "https://pub-ad7b08f18499474e911b970060b5baa1.r2.dev/images/IMG_20251124_162839.jpg"
-    ],
-    "description": "Tapado abrigado tipo teddy en color rosa. Súper suave, cómodo y calentito. Ideal para invierno o días fríos.",
-    "dateAdded": "2025-11-15",
-    "dateUpdated": "2025-11-30"
-  },
-  {
     "id": "9",
     "slug": "pantalon-ancho-tiro-alto-camel",
     "name": "Pantalón Ancho Tiro Alto Color Camel",
@@ -77,7 +62,7 @@
     "dateUpdated": "2026-02-02"
   },
   {
-    "id": "256",
+    "id": "257",
     "slug": "escalon-madera-pino-dos-niveles",
     "name": "Escalón de Madera de Pino con Dos Niveles",
     "price": 100000,
@@ -91,22 +76,6 @@
     "description": "Escalón de madera de pino natural con dos niveles. Muy práctico para alcanzar estantes altos, como banco auxiliar o como soporte decorativo para plantas. Estructura sólida y estable, con acabado natural que muestra las vetas de la madera. Ideal para baño, cocina o cualquier espacio del hogar.",
     "dateAdded": "2026-02-04",
     "dateUpdated": "2026-02-04"
-  },
-  {
-    "id": "2335",
-    "slug": "carrito-organizador-3-niveles-verde",
-    "name": "Carrito Organizador de 3 Niveles Verde",
-    "price": 50000,
-    "status": "sold",
-    "category": "Hogar",
-    "condition": "Usado - Muy buen estado",
-    "images": [
-      "https://pub-ad7b08f18499474e911b970060b5baa1.r2.dev/images/carrito_1.jpeg",
-      "https://pub-ad7b08f18499474e911b970060b5baa1.r2.dev/images/carrito_2.jpeg"
-    ],
-    "description": "Carrito organizador de plástico resistente, color verde, con tres niveles y ruedas. Muy práctico para escritorio, cocina, baño o guardado general. Liviano, estable y fácil de mover.",
-    "dateAdded": "2026-02-02",
-    "dateUpdated": "2026-02-02"
   },
   {
     "id": "2439",
@@ -155,21 +124,6 @@
     "dateUpdated": "2026-02-02"
   },
   {
-    "id": "256",
-    "slug": "cargador-iphone-13-pro-max-20w-usb-c",
-    "name": "Cargador iPhone 13 Pro Max – Adaptador 20W USB-C + Cable Lightning",
-    "price": 10000,
-    "status": "sold",
-    "category": "Electrónica",
-    "condition": "Usado - Muy buen estado",
-    "images": [
-      "https://pub-ad7b08f18499474e911b970060b5baa1.r2.dev/images/cargador.jpeg"
-    ],
-    "description": "Kit de carga para iPhone 13 Pro Max. Incluye adaptador de corriente USB-C de 20W y cable USB-C a Lightning. Carga rápida y eficiente, compatible con todos los modelos de iPhone con puerto Lightning. En perfecto estado de funcionamiento.",
-    "dateAdded": "2026-02-04",
-    "dateUpdated": "2026-02-04"
-  },
-  {
     "id": "246",
     "slug": "lampara-rustica-base-madera-2-ampolletas-e27",
     "name": "Lámpara Rústica con Base de Madera + 2 focos E27",
@@ -185,22 +139,6 @@
     "dateUpdated": "2026-02-04"
   },
   {
-    "id": "247",
-    "slug": "yogurtera-electrica-severin-7-frascos",
-    "name": "Yogurtera Eléctrica Severin con 7 Frascos",
-    "price": 15000,
-    "status": "sold",
-    "category": "Electrodomésticos",
-    "condition": "Usado - Buen estado",
-    "images": [
-      "https://pub-ad7b08f18499474e911b970060b5baa1.r2.dev/images/yogurtera_1.jpeg",
-      "https://pub-ad7b08f18499474e911b970060b5baa1.r2.dev/images/yogurtera_2.jpeg"
-    ],
-    "description": "Yogurtera eléctrica marca Severin (Made in Germany). Incluye sus 7 frascos originales de vidrio con tapa. Funciona perfectamente. Tiene una pequeña rotura en un lateral del plástico exterior, que no afecta en absoluto su uso ni funcionamiento. Ideal para preparar yogur casero de forma simple y constante.",
-    "dateAdded": "2026-02-06",
-    "dateUpdated": "2026-02-06"
-  },
-  {
     "id": "19",
     "slug": "pack-guias-viaje-chile-routard-lonely-planet",
     "name": "La Bible du Grand Voyageur + Pack de Guías de Viaje – Chile",
@@ -209,7 +147,7 @@
     "images": [
       "https://pub-ad7b08f18499474e911b970060b5baa1.r2.dev/images/WhatsApp%20Image%202026-01-28%20at%2019.47.39.jpeg"
     ],
-    "description": "Pack de dos libros de viaje en excelente estado: la guía “Chili – Île de Pâques” (Le Routard 2025–2026) y “La Bible du Grand Voyageur” (Lonely Planet).",
+    "description": "Pack de dos libros de viaje en excelente estado: la guía \"Chili – Île de Pâques\" (Le Routard 2025–2026) y \"La Bible du Grand Voyageur\" (Lonely Planet).",
     "category": "Libros",
     "condition": "Usado - Excelente",
     "dimensions": {
@@ -276,28 +214,6 @@
     "dateUpdated": "2025-11-30"
   },
   {
-    "id": "14",
-    "slug": "porta-macetas-macrame-artesanal-par",
-    "name": "Porta Macetas de Macramé Artesanal (Par)",
-    "price": 20000,
-    "status": "available",
-    "images": [
-      "https://pub-ad7b08f18499474e911b970060b5baa1.r2.dev/images/IMG_20251124_164543.jpg",
-      "https://pub-ad7b08f18499474e911b970060b5baa1.r2.dev/images/IMG-20251130-WA0004.jpg",
-      "https://pub-ad7b08f18499474e911b970060b5baa1.r2.dev/images/IMG-20251130-WA0005.jpg"
-    ],
-    "description": "Par de porta macetas de macramé artesanal en algodón natural, con aro de madera. Estilo boho, ideales para colgar plantas y sumar calidez a cualquier ambiente. Se venden juntos.",
-    "category": "Decoración",
-    "condition": "Usado - Excelente",
-    "dimensions": {
-      "height": 90,
-      "width": 15,
-      "depth": 15
-    },
-    "dateAdded": "2025-11-24",
-    "dateUpdated": "2025-11-30"
-  },
-  {
     "id": "20",
     "slug": "kit-pantene-biotina-b3-cuidado-capilar",
     "name": "Kit Pantene Biotina B3 – Cuidado Capilar",
@@ -339,30 +255,6 @@
     "dateUpdated": "2026-01-18"
   },
   {
-    "id": "18",
-    "slug": "campera-liviana-compactable-bolsa",
-    "name": "Campera Liviana Compactable con Bolsa",
-    "price": 35000,
-    "status": "sold",
-    "images": [
-      "https://pub-ad7b08f18499474e911b970060b5baa1.r2.dev/images/WhatsApp%20Image%202026-01-18%20at%2017.40.36%20(2).jpeg",
-      "https://pub-ad7b08f18499474e911b970060b5baa1.r2.dev/images/WhatsApp%20Image%202026-01-18%20at%2017.40.37.jpeg"
-    ],
-    "imageRotations": {
-      "0": 180
-    },
-    "description": "Campera liviana compactable que se guarda dentro de su propia bolsa. Ideal para viajes, mochilas o actividades al aire libre. Ocupa muy poco espacio y es fácil de transportar. Material suave y liviano, pensada como abrigo práctico para cambios de clima.",
-    "category": "Indumentaria",
-    "condition": "Usado - Buen estado",
-    "dimensions": {
-      "height": 18,
-      "width": 25,
-      "depth": 10
-    },
-    "dateAdded": "2026-01-18",
-    "dateUpdated": "2026-01-18"
-  },
-  {
     "id": "21",
     "slug": "pack-sorpresa-4-jabones-artesanales-naturales",
     "name": "Pack Sorpresa de 4 Jabones Artesanales Naturales",
@@ -383,6 +275,90 @@
     },
     "dateAdded": "2026-01-18",
     "dateUpdated": "2026-01-18"
+  },
+  {
+    "id": "8",
+    "slug": "tapado-sintetico-teddy-rosa",
+    "name": "Tapado Sintético Tipo Teddy Color Rosa",
+    "price": 60000,
+    "status": "sold",
+    "category": "Ropa",
+    "condition": "Usado - Buen estado",
+    "images": [
+      "https://pub-ad7b08f18499474e911b970060b5baa1.r2.dev/images/IMG_20251124_162839.jpg"
+    ],
+    "description": "Tapado abrigado tipo teddy en color rosa. Súper suave, cómodo y calentito. Ideal para invierno o días fríos.",
+    "dateAdded": "2025-11-15",
+    "dateUpdated": "2025-11-30"
+  },
+  {
+    "id": "2335",
+    "slug": "carrito-organizador-3-niveles-verde",
+    "name": "Carrito Organizador de 3 Niveles Verde",
+    "price": 50000,
+    "status": "sold",
+    "category": "Hogar",
+    "condition": "Usado - Muy buen estado",
+    "images": [
+      "https://pub-ad7b08f18499474e911b970060b5baa1.r2.dev/images/carrito_1.jpeg",
+      "https://pub-ad7b08f18499474e911b970060b5baa1.r2.dev/images/carrito_2.jpeg"
+    ],
+    "description": "Carrito organizador de plástico resistente, color verde, con tres niveles y ruedas. Muy práctico para escritorio, cocina, baño o guardado general. Liviano, estable y fácil de mover.",
+    "dateAdded": "2026-02-02",
+    "dateUpdated": "2026-02-02"
+  },
+  {
+    "id": "256",
+    "slug": "cargador-iphone-13-pro-max-20w-usb-c",
+    "name": "Cargador iPhone 13 Pro Max – Adaptador 20W USB-C + Cable Lightning",
+    "price": 10000,
+    "status": "sold",
+    "category": "Electrónica",
+    "condition": "Usado - Muy buen estado",
+    "images": [
+      "https://pub-ad7b08f18499474e911b970060b5baa1.r2.dev/images/cargador.jpeg"
+    ],
+    "description": "Kit de carga para iPhone 13 Pro Max. Incluye adaptador de corriente USB-C de 20W y cable USB-C a Lightning. Carga rápida y eficiente, compatible con todos los modelos de iPhone con puerto Lightning. En perfecto estado de funcionamiento.",
+    "dateAdded": "2026-02-04",
+    "dateUpdated": "2026-02-04"
+  },
+  {
+    "id": "247",
+    "slug": "yogurtera-electrica-severin-7-frascos",
+    "name": "Yogurtera Eléctrica Severin con 7 Frascos",
+    "price": 15000,
+    "status": "sold",
+    "category": "Electrodomésticos",
+    "condition": "Usado - Buen estado",
+    "images": [
+      "https://pub-ad7b08f18499474e911b970060b5baa1.r2.dev/images/yogurtera_1.jpeg",
+      "https://pub-ad7b08f18499474e911b970060b5baa1.r2.dev/images/yogurtera_2.jpeg"
+    ],
+    "description": "Yogurtera eléctrica marca Severin (Made in Germany). Incluye sus 7 frascos originales de vidrio con tapa. Funciona perfectamente. Tiene una pequeña rotura en un lateral del plástico exterior, que no afecta en absoluto su uso ni funcionamiento. Ideal para preparar yogur casero de forma simple y constante.",
+    "dateAdded": "2026-02-06",
+    "dateUpdated": "2026-02-06"
+  },
+  {
+    "id": "14",
+    "slug": "porta-macetas-macrame-artesanal-par",
+    "name": "Porta Macetas de Macramé Artesanal (Par)",
+    "price": 20000,
+    "status": "sold",
+    "images": [
+      "https://pub-ad7b08f18499474e911b970060b5baa1.r2.dev/images/IMG_20251124_164543.jpg",
+      "https://pub-ad7b08f18499474e911b970060b5baa1.r2.dev/images/IMG-20251130-WA0004.jpg",
+      "https://pub-ad7b08f18499474e911b970060b5baa1.r2.dev/images/IMG-20251130-WA0005.jpg"
+    ],
+    "description": "Par de porta macetas de macramé artesanal en algodón natural, con aro de madera. Estilo boho, ideales para colgar plantas y sumar calidez a cualquier ambiente. Se venden juntos.",
+    "category": "Decoración",
+    "condition": "Usado - Excelente",
+    "dimensions": {
+      "height": 90,
+      "width": 15,
+      "depth": 15
+    },
+    "dateAdded": "2025-11-24",
+    "dateUpdated": "2025-11-30"
   },
   {
     "id": "1",
@@ -558,6 +534,30 @@
       "height": 60,
       "width": 60,
       "depth": 3
+    },
+    "dateAdded": "2026-01-18",
+    "dateUpdated": "2026-01-18"
+  },
+  {
+    "id": "18",
+    "slug": "campera-liviana-compactable-bolsa",
+    "name": "Campera Liviana Compactable con Bolsa",
+    "price": 35000,
+    "status": "sold",
+    "images": [
+      "https://pub-ad7b08f18499474e911b970060b5baa1.r2.dev/images/WhatsApp%20Image%202026-01-18%20at%2017.40.36%20(2).jpeg",
+      "https://pub-ad7b08f18499474e911b970060b5baa1.r2.dev/images/WhatsApp%20Image%202026-01-18%20at%2017.40.37.jpeg"
+    ],
+    "imageRotations": {
+      "0": 180
+    },
+    "description": "Campera liviana compactable que se guarda dentro de su propia bolsa. Ideal para viajes, mochilas o actividades al aire libre. Ocupa muy poco espacio y es fácil de transportar. Material suave y liviano, pensada como abrigo práctico para cambios de clima.",
+    "category": "Indumentaria",
+    "condition": "Usado - Buen estado",
+    "dimensions": {
+      "height": 18,
+      "width": 25,
+      "depth": 10
     },
     "dateAdded": "2026-01-18",
     "dateUpdated": "2026-01-18"
