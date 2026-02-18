@@ -20,7 +20,7 @@
     "slug": "pantalon-ancho-tiro-alto-camel",
     "name": "Pantalón Ancho Tiro Alto Color Camel",
     "price": 20000,
-    "status": "available",
+    "status": "sold",
     "category": "Ropa",
     "condition": "Usado - Muy buen estado",
     "images": [
@@ -35,7 +35,7 @@
     "slug": "cortina-luces-led-luna-estrellas",
     "name": "Luces de navidad LED Luna y Estrellas",
     "price": 25000,
-    "status": "available",
+    "status": "sold",
     "category": "Hogar",
     "condition": "Usado - Muy buen estado",
     "images": [
@@ -65,7 +65,7 @@
     "id": "257",
     "slug": "escalon-madera-pino-dos-niveles",
     "name": "Escalón de Madera de Pino con Dos Niveles",
-    "price": 100000,
+    "price": 80000,
     "status": "available",
     "category": "Hogar",
     "condition": "Usado - Muy buen estado",
@@ -98,7 +98,7 @@
     "slug": "sandalias-goma-rosadas",
     "name": "Sandalias Havaianas de Goma Rosadas - Talle 37 AR",
     "price": 15000,
-    "status": "available",
+    "status": "sold",
     "category": "Calzado",
     "condition": "Usado - Buen estado",
     "images": [
