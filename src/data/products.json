@@ -1,51 +1,5 @@
 [
   {
-    "id": "7",
-    "slug": "vestido-negro-corto-detalles-calados",
-    "name": "Vestido Negro Corto con Detalles Calados",
-    "price": 15000,
-    "status": "available",
-    "category": "Ropa",
-    "condition": "Usado - Muy buen estado",
-    "images": [
-      "https://pub-ad7b08f18499474e911b970060b5baa1.r2.dev/images/IMG_20251124_162536.jpg",
-      "https://pub-ad7b08f18499474e911b970060b5baa1.r2.dev/images/IMG_20251124_162633.jpg"
-    ],
-    "description": "Vestido negro corto, liviano y cómodo, con detalles calados en mangas y cintura. Corte favorecedor, ideal para verano o media estación. Muy poco uso.",
-    "dateAdded": "2025-11-15",
-    "dateUpdated": "2025-11-30"
-  },
-  {
-    "id": "9",
-    "slug": "pantalon-ancho-tiro-alto-camel",
-    "name": "Pantalón Ancho Tiro Alto Color Camel",
-    "price": 20000,
-    "status": "sold",
-    "category": "Ropa",
-    "condition": "Usado - Muy buen estado",
-    "images": [
-      "https://pub-ad7b08f18499474e911b970060b5baa1.r2.dev/images/IMG_20251124_163328.jpg"
-    ],
-    "description": "Pantalón ancho, tiro alto, color camel con botones frontales. Tela liviana y caída recta. Muy cómodo y versátil, ideal para looks casuales o más arreglados.",
-    "dateAdded": "2025-11-15",
-    "dateUpdated": "2025-11-30"
-  },
-  {
-    "id": "201",
-    "slug": "cortina-luces-led-luna-estrellas",
-    "name": "Luces de navidad LED Luna y Estrellas",
-    "price": 25000,
-    "status": "sold",
-    "category": "Hogar",
-    "condition": "Usado - Muy buen estado",
-    "images": [
-      "https://pub-ad7b08f18499474e911b970060b5baa1.r2.dev/images/luces_navidad.jpeg"
-    ],
-    "description": "Cortina de luces LED decorativas con formas de lunas y estrellas. Luz cálida, ideal para living, balcón o dormitorio. Funciona perfecto y crea un ambiente súper acogedor.",
-    "dateAdded": "2026-02-02",
-    "dateUpdated": "2026-02-02"
-  },
-  {
     "id": "210",
     "slug": "set-2-canastos-metal-blanco",
     "name": "Set de 2 Canastos de Metal Blancos",
@@ -92,21 +46,6 @@
     "description": "Juego de 2 sábanas en muy buen estado, ideal para cama de 160×200 cm. Incluye 1 sábana ajustable IKEA color beige y 1 sábana plana beige de percal de algodón 240×290 cm, marca La Redoute. Precio del lote: €40. Valor nuevo aproximado: €70.",
     "dateAdded": "2026-02-06",
     "dateUpdated": "2026-02-06"
-  },
-  {
-    "id": "223",
-    "slug": "sandalias-goma-rosadas",
-    "name": "Sandalias Havaianas de Goma Rosadas - Talle 37 AR",
-    "price": 15000,
-    "status": "sold",
-    "category": "Calzado",
-    "condition": "Usado - Buen estado",
-    "images": [
-      "https://pub-ad7b08f18499474e911b970060b5baa1.r2.dev/images/sandalias.jpeg"
-    ],
-    "description": "Sandalias Havaianas de goma color rosado, cómodas y livianas. Ideales para verano, playa o uso diario en casa. Poco uso.",
-    "dateAdded": "2026-02-02",
-    "dateUpdated": "2026-02-02"
   },
   {
     "id": "234",
@@ -275,6 +214,67 @@
     },
     "dateAdded": "2026-01-18",
     "dateUpdated": "2026-01-18"
+  },
+  {
+    "id": "7",
+    "slug": "vestido-negro-corto-detalles-calados",
+    "name": "Vestido Negro Corto con Detalles Calados",
+    "price": 15000,
+    "status": "sold",
+    "category": "Ropa",
+    "condition": "Usado - Muy buen estado",
+    "images": [
+      "https://pub-ad7b08f18499474e911b970060b5baa1.r2.dev/images/IMG_20251124_162536.jpg",
+      "https://pub-ad7b08f18499474e911b970060b5baa1.r2.dev/images/IMG_20251124_162633.jpg"
+    ],
+    "description": "Vestido negro corto, liviano y cómodo, con detalles calados en mangas y cintura. Corte favorecedor, ideal para verano o media estación. Muy poco uso.",
+    "dateAdded": "2025-11-15",
+    "dateUpdated": "2026-02-19"
+  },
+  {
+    "id": "9",
+    "slug": "pantalon-ancho-tiro-alto-camel",
+    "name": "Pantalón Ancho Tiro Alto Color Camel",
+    "price": 20000,
+    "status": "sold",
+    "category": "Ropa",
+    "condition": "Usado - Muy buen estado",
+    "images": [
+      "https://pub-ad7b08f18499474e911b970060b5baa1.r2.dev/images/IMG_20251124_163328.jpg"
+    ],
+    "description": "Pantalón ancho, tiro alto, color camel con botones frontales. Tela liviana y caída recta. Muy cómodo y versátil, ideal para looks casuales o más arreglados.",
+    "dateAdded": "2025-11-15",
+    "dateUpdated": "2025-11-30"
+  },
+  {
+    "id": "201",
+    "slug": "cortina-luces-led-luna-estrellas",
+    "name": "Luces de navidad LED Luna y Estrellas",
+    "price": 25000,
+    "status": "sold",
+    "category": "Hogar",
+    "condition": "Usado - Muy buen estado",
+    "images": [
+      "https://pub-ad7b08f18499474e911b970060b5baa1.r2.dev/images/luces_navidad.jpeg"
+    ],
+    "description": "Cortina de luces LED decorativas con formas de lunas y estrellas. Luz cálida, ideal para living, balcón o dormitorio. Funciona perfecto y crea un ambiente súper acogedor.",
+    "dateAdded": "2026-02-02",
+    "dateUpdated": "2026-02-02"
+  },
+  {
+    "id": "223",
+    "slug": "sandalias-goma-rosadas",
+    "name": "Sandalias Havaianas de Goma Rosadas - Talle 37 AR",
+    "price": 15000,
+    "status": "sold",
+    "category": "Calzado",
+    "condition": "Usado - Buen estado",
+    "images": [
+      "https://pub-ad7b08f18499474e911b970060b5baa1.r2.dev/images/sandalias.jpeg"
+    ],
+    "description": "Sandalias Havaianas de goma color rosado, cómodas y livianas. Ideales para verano, playa o uso diario en casa. Poco uso.",
+    "dateAdded": "2026-02-02",
+    "dateUpdated": "2026-02-02"
   },
   {
     "id": "8",
